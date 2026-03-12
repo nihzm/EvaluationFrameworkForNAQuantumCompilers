@@ -1,0 +1,604 @@
+2026-01-27 11:08:53,775 - BenchmarkManager - INFO - Initializing 1 compilers...
+2026-01-27 11:08:53,776 - BenchmarkManager - INFO - Starting benchmark execution ...
+2026-01-27 11:08:53,792 - BenchmarkManager - INFO - Found 100 benchmark circuits in ./benchmarks
+2026-01-27 11:08:53,792 - BenchmarkManager - INFO - Loaded 100 benchmark circuits
+2026-01-27 11:08:53,792 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uf20-07.qasm
+2026-01-27 11:08:53,797 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uf20-07_trimmed.qasm
+2026-01-27 11:08:54,783 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:08:54,784 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uf20-07_trimmed.qasm
+2026-01-27 11:08:54,785 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf250-09.qasm
+2026-01-27 11:08:54,800 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf250-09_trimmed.qasm
+2026-01-27 11:08:57,428 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:08:57,429 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf250-09_trimmed.qasm
+2026-01-27 11:08:57,429 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf150-010.qasm
+2026-01-27 11:08:57,439 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf150-010_trimmed.qasm
+2026-01-27 11:08:59,324 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:08:59,326 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf150-010_trimmed.qasm
+2026-01-27 11:08:59,326 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uf20-04.qasm
+2026-01-27 11:08:59,329 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uf20-04_trimmed.qasm
+2026-01-27 11:09:00,066 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:09:00,068 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uf20-04_trimmed.qasm
+2026-01-27 11:09:00,068 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf200-01.qasm
+2026-01-27 11:09:00,082 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf200-01_trimmed.qasm
+2026-01-27 11:09:02,345 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:09:02,346 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf200-01_trimmed.qasm
+2026-01-27 11:09:02,346 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf250-08.qasm
+2026-01-27 11:09:02,363 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf250-08_trimmed.qasm
+2026-01-27 11:09:04,889 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:09:04,891 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf250-08_trimmed.qasm
+2026-01-27 11:09:04,891 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf75-01.qasm
+2026-01-27 11:09:04,896 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf75-01_trimmed.qasm
+2026-01-27 11:09:06,119 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:09:06,120 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf75-01_trimmed.qasm
+2026-01-27 11:09:06,121 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf100-07.qasm
+2026-01-27 11:09:06,127 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf100-07_trimmed.qasm
+2026-01-27 11:09:07,621 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:09:07,622 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf100-07_trimmed.qasm
+2026-01-27 11:09:07,622 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf175-01.qasm
+2026-01-27 11:09:07,633 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf175-01_trimmed.qasm
+2026-01-27 11:09:09,707 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:09:09,708 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf175-01_trimmed.qasm
+2026-01-27 11:09:09,708 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uf20-09.qasm
+2026-01-27 11:09:09,715 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uf20-09_trimmed.qasm
+2026-01-27 11:09:10,442 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:09:10,444 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uf20-09_trimmed.qasm
+2026-01-27 11:09:10,444 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf150-05.qasm
+2026-01-27 11:09:10,453 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf150-05_trimmed.qasm
+2026-01-27 11:09:12,362 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:09:12,364 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf150-05_trimmed.qasm
+2026-01-27 11:09:12,364 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf100-010.qasm
+2026-01-27 11:09:12,372 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf100-010_trimmed.qasm
+2026-01-27 11:09:14,009 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:09:14,010 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf100-010_trimmed.qasm
+2026-01-27 11:09:14,010 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uf20-010.qasm
+2026-01-27 11:09:14,014 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uf20-010_trimmed.qasm
+2026-01-27 11:09:14,881 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:09:14,882 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uf20-010_trimmed.qasm
+2026-01-27 11:09:14,883 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf150-08.qasm
+2026-01-27 11:09:14,893 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf150-08_trimmed.qasm
+2026-01-27 11:09:16,944 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:09:16,945 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf150-08_trimmed.qasm
+2026-01-27 11:09:16,946 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf50-06.qasm
+2026-01-27 11:09:16,950 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf50-06_trimmed.qasm
+2026-01-27 11:09:18,024 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:09:18,025 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf50-06_trimmed.qasm
+2026-01-27 11:09:18,026 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf225-04.qasm
+2026-01-27 11:09:18,039 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf225-04_trimmed.qasm
+2026-01-27 11:09:20,467 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:09:20,468 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf225-04_trimmed.qasm
+2026-01-27 11:09:20,468 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf75-05.qasm
+2026-01-27 11:09:20,475 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf75-05_trimmed.qasm
+2026-01-27 11:09:21,808 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:09:21,809 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf75-05_trimmed.qasm
+2026-01-27 11:09:21,810 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf200-08.qasm
+2026-01-27 11:09:21,823 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf200-08_trimmed.qasm
+2026-01-27 11:09:24,148 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:09:24,150 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf200-08_trimmed.qasm
+2026-01-27 11:09:24,150 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf175-02.qasm
+2026-01-27 11:09:24,160 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf175-02_trimmed.qasm
+2026-01-27 11:09:26,261 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:09:26,263 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf175-02_trimmed.qasm
+2026-01-27 11:09:26,264 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf50-05.qasm
+2026-01-27 11:09:26,270 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf50-05_trimmed.qasm
+2026-01-27 11:09:27,372 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:09:27,373 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf50-05_trimmed.qasm
+2026-01-27 11:09:27,373 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf150-03.qasm
+2026-01-27 11:09:27,384 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf150-03_trimmed.qasm
+2026-01-27 11:09:29,495 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:09:29,497 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf150-03_trimmed.qasm
+2026-01-27 11:09:29,497 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf225-01.qasm
+2026-01-27 11:09:29,513 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf225-01_trimmed.qasm
+2026-01-27 11:09:32,073 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:09:32,075 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf225-01_trimmed.qasm
+2026-01-27 11:09:32,076 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf175-05.qasm
+2026-01-27 11:09:32,085 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf175-05_trimmed.qasm
+2026-01-27 11:09:34,264 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:09:34,265 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf175-05_trimmed.qasm
+2026-01-27 11:09:34,265 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf175-06.qasm
+2026-01-27 11:09:34,274 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf175-06_trimmed.qasm
+2026-01-27 11:09:36,399 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:09:36,401 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf175-06_trimmed.qasm
+2026-01-27 11:09:36,401 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf200-07.qasm
+2026-01-27 11:09:36,413 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf200-07_trimmed.qasm
+2026-01-27 11:09:38,677 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:09:38,679 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf200-07_trimmed.qasm
+2026-01-27 11:09:38,679 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf250-02.qasm
+2026-01-27 11:09:38,694 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf250-02_trimmed.qasm
+2026-01-27 11:09:41,078 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:09:41,080 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf250-02_trimmed.qasm
+2026-01-27 11:09:41,080 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf150-07.qasm
+2026-01-27 11:09:41,090 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf150-07_trimmed.qasm
+2026-01-27 11:09:42,948 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:09:42,949 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf150-07_trimmed.qasm
+2026-01-27 11:09:42,950 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf250-01.qasm
+2026-01-27 11:09:42,963 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf250-01_trimmed.qasm
+2026-01-27 11:09:45,471 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:09:45,472 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf250-01_trimmed.qasm
+2026-01-27 11:09:45,473 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf75-04.qasm
+2026-01-27 11:09:45,478 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf75-04_trimmed.qasm
+2026-01-27 11:09:46,791 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:09:46,793 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf75-04_trimmed.qasm
+2026-01-27 11:09:46,793 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf225-07.qasm
+2026-01-27 11:09:46,806 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf225-07_trimmed.qasm
+2026-01-27 11:09:49,221 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:09:49,243 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf225-07_trimmed.qasm
+2026-01-27 11:09:49,244 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf225-06.qasm
+2026-01-27 11:09:49,261 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf225-06_trimmed.qasm
+2026-01-27 11:09:51,747 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:09:51,749 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf225-06_trimmed.qasm
+2026-01-27 11:09:51,749 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uf20-03.qasm
+2026-01-27 11:09:51,752 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uf20-03_trimmed.qasm
+2026-01-27 11:09:52,584 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:09:52,585 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uf20-03_trimmed.qasm
+2026-01-27 11:09:52,585 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf50-07.qasm
+2026-01-27 11:09:52,591 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf50-07_trimmed.qasm
+2026-01-27 11:09:53,675 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:09:53,677 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf50-07_trimmed.qasm
+2026-01-27 11:09:53,678 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf150-09.qasm
+2026-01-27 11:09:53,687 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf150-09_trimmed.qasm
+2026-01-27 11:09:55,653 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:09:55,654 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf150-09_trimmed.qasm
+2026-01-27 11:09:55,655 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf100-09.qasm
+2026-01-27 11:09:55,664 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf100-09_trimmed.qasm
+2026-01-27 11:09:57,422 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:09:57,423 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf100-09_trimmed.qasm
+2026-01-27 11:09:57,423 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uf20-01.qasm
+2026-01-27 11:09:57,427 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uf20-01_trimmed.qasm
+2026-01-27 11:09:58,211 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:09:58,212 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uf20-01_trimmed.qasm
+2026-01-27 11:09:58,213 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf200-02.qasm
+2026-01-27 11:09:58,223 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf200-02_trimmed.qasm
+2026-01-27 11:10:00,511 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:10:00,513 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf200-02_trimmed.qasm
+2026-01-27 11:10:00,513 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf75-07.qasm
+2026-01-27 11:10:00,519 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf75-07_trimmed.qasm
+2026-01-27 11:10:01,844 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:10:01,846 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf75-07_trimmed.qasm
+2026-01-27 11:10:01,848 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf225-08.qasm
+2026-01-27 11:10:01,858 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf225-08_trimmed.qasm
+2026-01-27 11:10:04,342 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:10:04,343 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf225-08_trimmed.qasm
+2026-01-27 11:10:04,354 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf175-08.qasm
+2026-01-27 11:10:04,363 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf175-08_trimmed.qasm
+2026-01-27 11:10:06,492 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:10:06,493 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf175-08_trimmed.qasm
+2026-01-27 11:10:06,493 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf150-06.qasm
+2026-01-27 11:10:06,504 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf150-06_trimmed.qasm
+2026-01-27 11:10:08,362 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:10:08,363 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf150-06_trimmed.qasm
+2026-01-27 11:10:08,363 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf150-02.qasm
+2026-01-27 11:10:08,374 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf150-02_trimmed.qasm
+2026-01-27 11:10:10,294 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:10:10,295 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf150-02_trimmed.qasm
+2026-01-27 11:10:10,296 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf75-02.qasm
+2026-01-27 11:10:10,303 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf75-02_trimmed.qasm
+2026-01-27 11:10:11,529 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:10:11,531 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf75-02_trimmed.qasm
+2026-01-27 11:10:11,532 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf50-02.qasm
+2026-01-27 11:10:11,536 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf50-02_trimmed.qasm
+2026-01-27 11:10:12,520 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:10:12,521 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf50-02_trimmed.qasm
+2026-01-27 11:10:12,522 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf125-07.qasm
+2026-01-27 11:10:12,530 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf125-07_trimmed.qasm
+2026-01-27 11:10:14,219 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:10:14,221 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf125-07_trimmed.qasm
+2026-01-27 11:10:14,221 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf125-09.qasm
+2026-01-27 11:10:14,228 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf125-09_trimmed.qasm
+2026-01-27 11:10:15,955 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:10:15,957 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf125-09_trimmed.qasm
+2026-01-27 11:10:15,957 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf200-09.qasm
+2026-01-27 11:10:15,968 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf200-09_trimmed.qasm
+2026-01-27 11:10:18,251 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:10:18,253 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf200-09_trimmed.qasm
+2026-01-27 11:10:18,253 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf100-02.qasm
+2026-01-27 11:10:18,260 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf100-02_trimmed.qasm
+2026-01-27 11:10:19,761 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:10:19,763 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf100-02_trimmed.qasm
+2026-01-27 11:10:19,764 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf250-03.qasm
+2026-01-27 11:10:19,779 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf250-03_trimmed.qasm
+2026-01-27 11:10:22,235 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:10:22,236 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf250-03_trimmed.qasm
+2026-01-27 11:10:22,236 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uf20-05.qasm
+2026-01-27 11:10:22,240 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uf20-05_trimmed.qasm
+2026-01-27 11:10:22,973 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:10:22,974 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uf20-05_trimmed.qasm
+2026-01-27 11:10:22,975 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf200-05.qasm
+2026-01-27 11:10:22,986 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf200-05_trimmed.qasm
+2026-01-27 11:10:25,235 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:10:25,237 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf200-05_trimmed.qasm
+2026-01-27 11:10:25,237 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf125-03.qasm
+2026-01-27 11:10:25,245 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf125-03_trimmed.qasm
+2026-01-27 11:10:26,938 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:10:26,939 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf125-03_trimmed.qasm
+2026-01-27 11:10:26,940 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf175-010.qasm
+2026-01-27 11:10:26,952 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf175-010_trimmed.qasm
+2026-01-27 11:10:29,025 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:10:29,027 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf175-010_trimmed.qasm
+2026-01-27 11:10:29,028 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf125-06.qasm
+2026-01-27 11:10:29,035 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf125-06_trimmed.qasm
+2026-01-27 11:10:30,791 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:10:30,792 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf125-06_trimmed.qasm
+2026-01-27 11:10:30,792 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf125-01.qasm
+2026-01-27 11:10:30,800 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf125-01_trimmed.qasm
+2026-01-27 11:10:32,468 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:10:32,471 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf125-01_trimmed.qasm
+2026-01-27 11:10:32,471 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf75-08.qasm
+2026-01-27 11:10:32,481 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf75-08_trimmed.qasm
+2026-01-27 11:10:33,731 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:10:33,733 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf75-08_trimmed.qasm
+2026-01-27 11:10:33,733 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf100-05.qasm
+2026-01-27 11:10:33,739 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf100-05_trimmed.qasm
+2026-01-27 11:10:35,296 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:10:35,297 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf100-05_trimmed.qasm
+2026-01-27 11:10:35,298 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf125-010.qasm
+2026-01-27 11:10:35,310 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf125-010_trimmed.qasm
+2026-01-27 11:10:37,006 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:10:37,008 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf125-010_trimmed.qasm
+2026-01-27 11:10:37,008 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf225-010.qasm
+2026-01-27 11:10:37,023 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf225-010_trimmed.qasm
+2026-01-27 11:10:39,408 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:10:39,409 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf225-010_trimmed.qasm
+2026-01-27 11:10:39,409 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf100-08.qasm
+2026-01-27 11:10:39,416 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf100-08_trimmed.qasm
+2026-01-27 11:10:40,932 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:10:40,933 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf100-08_trimmed.qasm
+2026-01-27 11:10:40,933 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf50-08.qasm
+2026-01-27 11:10:40,938 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf50-08_trimmed.qasm
+2026-01-27 11:10:41,999 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:10:42,000 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf50-08_trimmed.qasm
+2026-01-27 11:10:42,001 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf100-04.qasm
+2026-01-27 11:10:42,006 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf100-04_trimmed.qasm
+2026-01-27 11:10:43,532 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:10:43,534 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf100-04_trimmed.qasm
+2026-01-27 11:10:43,534 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf175-03.qasm
+2026-01-27 11:10:43,543 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf175-03_trimmed.qasm
+2026-01-27 11:10:45,615 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:10:45,617 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf175-03_trimmed.qasm
+2026-01-27 11:10:45,617 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf225-05.qasm
+2026-01-27 11:10:45,630 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf225-05_trimmed.qasm
+2026-01-27 11:10:48,103 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:10:48,104 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf225-05_trimmed.qasm
+2026-01-27 11:10:48,104 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf50-04.qasm
+2026-01-27 11:10:48,110 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf50-04_trimmed.qasm
+2026-01-27 11:10:49,129 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:10:49,130 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf50-04_trimmed.qasm
+2026-01-27 11:10:49,131 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf175-07.qasm
+2026-01-27 11:10:49,142 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf175-07_trimmed.qasm
+2026-01-27 11:10:51,305 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:10:51,307 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf175-07_trimmed.qasm
+2026-01-27 11:10:51,308 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf50-010.qasm
+2026-01-27 11:10:51,313 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf50-010_trimmed.qasm
+2026-01-27 11:10:52,297 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:10:52,299 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf50-010_trimmed.qasm
+2026-01-27 11:10:52,299 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf200-06.qasm
+2026-01-27 11:10:52,313 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf200-06_trimmed.qasm
+2026-01-27 11:10:54,704 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:10:54,706 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf200-06_trimmed.qasm
+2026-01-27 11:10:54,707 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf150-04.qasm
+2026-01-27 11:10:54,718 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf150-04_trimmed.qasm
+2026-01-27 11:10:56,633 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:10:56,635 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf150-04_trimmed.qasm
+2026-01-27 11:10:56,635 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf125-04.qasm
+2026-01-27 11:10:56,645 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf125-04_trimmed.qasm
+2026-01-27 11:10:58,537 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:10:58,538 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf125-04_trimmed.qasm
+2026-01-27 11:10:58,538 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf75-09.qasm
+2026-01-27 11:10:58,544 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf75-09_trimmed.qasm
+2026-01-27 11:10:59,796 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:10:59,797 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf75-09_trimmed.qasm
+2026-01-27 11:10:59,798 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf175-04.qasm
+2026-01-27 11:10:59,808 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf175-04_trimmed.qasm
+2026-01-27 11:11:01,878 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:11:01,880 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf175-04_trimmed.qasm
+2026-01-27 11:11:01,881 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf250-010.qasm
+2026-01-27 11:11:01,901 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf250-010_trimmed.qasm
+2026-01-27 11:11:04,346 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:11:04,348 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf250-010_trimmed.qasm
+2026-01-27 11:11:04,348 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf125-08.qasm
+2026-01-27 11:11:04,357 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf125-08_trimmed.qasm
+2026-01-27 11:11:06,182 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:11:06,184 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf125-08_trimmed.qasm
+2026-01-27 11:11:06,184 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf250-05.qasm
+2026-01-27 11:11:06,200 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf250-05_trimmed.qasm
+2026-01-27 11:11:08,733 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:11:08,734 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf250-05_trimmed.qasm
+2026-01-27 11:11:08,735 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf75-06.qasm
+2026-01-27 11:11:08,742 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf75-06_trimmed.qasm
+2026-01-27 11:11:10,167 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:11:10,168 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf75-06_trimmed.qasm
+2026-01-27 11:11:10,169 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf50-09.qasm
+2026-01-27 11:11:10,176 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf50-09_trimmed.qasm
+2026-01-27 11:11:11,295 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:11:11,296 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf50-09_trimmed.qasm
+2026-01-27 11:11:11,296 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf175-09.qasm
+2026-01-27 11:11:11,305 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf175-09_trimmed.qasm
+2026-01-27 11:11:13,484 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:11:13,485 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf175-09_trimmed.qasm
+2026-01-27 11:11:13,485 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf200-04.qasm
+2026-01-27 11:11:13,496 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf200-04_trimmed.qasm
+2026-01-27 11:11:15,979 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:11:15,980 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf200-04_trimmed.qasm
+2026-01-27 11:11:15,980 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf75-03.qasm
+2026-01-27 11:11:15,985 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf75-03_trimmed.qasm
+2026-01-27 11:11:17,276 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:11:17,277 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf75-03_trimmed.qasm
+2026-01-27 11:11:17,277 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf100-03.qasm
+2026-01-27 11:11:17,284 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf100-03_trimmed.qasm
+2026-01-27 11:11:18,823 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:11:18,824 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf100-03_trimmed.qasm
+2026-01-27 11:11:18,825 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf100-06.qasm
+2026-01-27 11:11:18,832 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf100-06_trimmed.qasm
+2026-01-27 11:11:20,502 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:11:20,503 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf100-06_trimmed.qasm
+2026-01-27 11:11:20,503 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf200-010.qasm
+2026-01-27 11:11:20,515 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf200-010_trimmed.qasm
+2026-01-27 11:11:22,861 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:11:22,863 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf200-010_trimmed.qasm
+2026-01-27 11:11:22,863 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf150-01.qasm
+2026-01-27 11:11:22,875 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf150-01_trimmed.qasm
+2026-01-27 11:11:24,850 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:11:24,851 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf150-01_trimmed.qasm
+2026-01-27 11:11:24,851 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uf20-02.qasm
+2026-01-27 11:11:24,855 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uf20-02_trimmed.qasm
+2026-01-27 11:11:25,648 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:11:25,650 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uf20-02_trimmed.qasm
+2026-01-27 11:11:25,650 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf200-03.qasm
+2026-01-27 11:11:25,662 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf200-03_trimmed.qasm
+2026-01-27 11:11:27,854 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:11:27,855 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf200-03_trimmed.qasm
+2026-01-27 11:11:27,855 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf125-02.qasm
+2026-01-27 11:11:27,864 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf125-02_trimmed.qasm
+2026-01-27 11:11:29,643 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:11:29,644 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf125-02_trimmed.qasm
+2026-01-27 11:11:29,644 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf250-06.qasm
+2026-01-27 11:11:29,658 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf250-06_trimmed.qasm
+2026-01-27 11:11:32,169 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:11:32,170 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf250-06_trimmed.qasm
+2026-01-27 11:11:32,170 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf50-03.qasm
+2026-01-27 11:11:32,177 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf50-03_trimmed.qasm
+2026-01-27 11:11:33,436 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:11:33,438 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf50-03_trimmed.qasm
+2026-01-27 11:11:33,438 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uf20-06.qasm
+2026-01-27 11:11:33,443 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uf20-06_trimmed.qasm
+2026-01-27 11:11:34,227 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:11:34,228 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uf20-06_trimmed.qasm
+2026-01-27 11:11:34,229 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf125-05.qasm
+2026-01-27 11:11:34,237 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf125-05_trimmed.qasm
+2026-01-27 11:11:36,003 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:11:36,005 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf125-05_trimmed.qasm
+2026-01-27 11:11:36,005 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf225-02.qasm
+2026-01-27 11:11:36,018 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf225-02_trimmed.qasm
+2026-01-27 11:11:38,426 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:11:38,428 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf225-02_trimmed.qasm
+2026-01-27 11:11:38,428 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf250-07.qasm
+2026-01-27 11:11:38,443 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf250-07_trimmed.qasm
+2026-01-27 11:11:40,886 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:11:40,888 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf250-07_trimmed.qasm
+2026-01-27 11:11:40,888 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf75-010.qasm
+2026-01-27 11:11:40,895 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf75-010_trimmed.qasm
+2026-01-27 11:11:42,192 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:11:42,193 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf75-010_trimmed.qasm
+2026-01-27 11:11:42,194 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uf20-08.qasm
+2026-01-27 11:11:42,197 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uf20-08_trimmed.qasm
+2026-01-27 11:11:42,981 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:11:42,982 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uf20-08_trimmed.qasm
+2026-01-27 11:11:42,983 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf250-04.qasm
+2026-01-27 11:11:42,996 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf250-04_trimmed.qasm
+2026-01-27 11:11:45,565 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:11:45,566 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf250-04_trimmed.qasm
+2026-01-27 11:11:45,567 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf225-09.qasm
+2026-01-27 11:11:45,579 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf225-09_trimmed.qasm
+2026-01-27 11:11:48,108 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:11:48,109 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf225-09_trimmed.qasm
+2026-01-27 11:11:48,109 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf50-01.qasm
+2026-01-27 11:11:48,115 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf50-01_trimmed.qasm
+2026-01-27 11:11:49,180 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:11:49,182 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf50-01_trimmed.qasm
+2026-01-27 11:11:49,182 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf100-01.qasm
+2026-01-27 11:11:49,188 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf100-01_trimmed.qasm
+2026-01-27 11:11:50,756 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:11:50,757 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf100-01_trimmed.qasm
+2026-01-27 11:11:50,758 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf225-03.qasm
+2026-01-27 11:11:50,772 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf225-03_trimmed.qasm
+2026-01-27 11:11:53,204 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:11:53,206 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf225-03_trimmed.qasm

@@ -1,0 +1,32 @@
+{
+  "architecture": {
+    "array_width": 16,
+    "array_height": 16,
+    "aod_columns": 8,
+    "aod_rows": 8
+  },
+  "hardware_spec": {
+    "R_B": 6,
+    "AOD_SEP": 1,
+    "RYD_SEP": 2,
+    "SITE_SLMS": 2,
+    "SLM_SEP": 1,
+    "SITE_WIDTH": 4,
+    "T_RYDBERG": 0.15,
+    "T_ACTIVATE": 15
+  },
+  "fidelity_spec": {
+    "2QG": 0.995,
+    "1QG": 0.999,
+    "AT": 0.999,
+    "T": 100000000
+  },
+  "strategy_spec": {
+    "routing_strategy": "maximalis",
+    "r2i": true,
+    "dependency": true,
+    "use_window": true,
+    "full_code": false,
+    "trivial_layout": true
+  }
+}

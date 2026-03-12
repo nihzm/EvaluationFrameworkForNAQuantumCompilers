@@ -1,0 +1,604 @@
+2026-01-27 11:04:04,202 - BenchmarkManager - INFO - Initializing 1 compilers...
+2026-01-27 11:04:04,202 - BenchmarkManager - INFO - Starting benchmark execution ...
+2026-01-27 11:04:04,205 - BenchmarkManager - INFO - Found 100 benchmark circuits in ./benchmarks
+2026-01-27 11:04:04,209 - BenchmarkManager - INFO - Loaded 100 benchmark circuits
+2026-01-27 11:04:04,209 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uf20-07.qasm
+2026-01-27 11:04:04,213 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uf20-07_trimmed.qasm
+2026-01-27 11:04:05,084 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:04:05,086 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uf20-07_trimmed.qasm
+2026-01-27 11:04:05,086 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf250-09.qasm
+2026-01-27 11:04:05,103 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf250-09_trimmed.qasm
+2026-01-27 11:04:06,839 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:04:06,840 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf250-09_trimmed.qasm
+2026-01-27 11:04:06,840 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf150-010.qasm
+2026-01-27 11:04:06,851 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf150-010_trimmed.qasm
+2026-01-27 11:04:08,194 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:04:08,195 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf150-010_trimmed.qasm
+2026-01-27 11:04:08,196 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uf20-04.qasm
+2026-01-27 11:04:08,200 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uf20-04_trimmed.qasm
+2026-01-27 11:04:08,903 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:04:08,905 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uf20-04_trimmed.qasm
+2026-01-27 11:04:08,906 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf200-01.qasm
+2026-01-27 11:04:08,918 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf200-01_trimmed.qasm
+2026-01-27 11:04:10,549 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:04:10,551 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf200-01_trimmed.qasm
+2026-01-27 11:04:10,551 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf250-08.qasm
+2026-01-27 11:04:10,567 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf250-08_trimmed.qasm
+2026-01-27 11:04:12,311 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:04:12,312 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf250-08_trimmed.qasm
+2026-01-27 11:04:12,313 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf75-01.qasm
+2026-01-27 11:04:12,319 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf75-01_trimmed.qasm
+2026-01-27 11:04:13,229 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:04:13,231 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf75-01_trimmed.qasm
+2026-01-27 11:04:13,231 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf100-07.qasm
+2026-01-27 11:04:13,238 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf100-07_trimmed.qasm
+2026-01-27 11:04:14,401 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:04:14,402 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf100-07_trimmed.qasm
+2026-01-27 11:04:14,402 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf175-01.qasm
+2026-01-27 11:04:14,413 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf175-01_trimmed.qasm
+2026-01-27 11:04:15,799 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:04:15,801 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf175-01_trimmed.qasm
+2026-01-27 11:04:15,802 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uf20-09.qasm
+2026-01-27 11:04:15,806 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uf20-09_trimmed.qasm
+2026-01-27 11:04:16,502 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:04:16,504 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uf20-09_trimmed.qasm
+2026-01-27 11:04:16,504 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf150-05.qasm
+2026-01-27 11:04:16,513 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf150-05_trimmed.qasm
+2026-01-27 11:04:17,939 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:04:17,941 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf150-05_trimmed.qasm
+2026-01-27 11:04:17,941 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf100-010.qasm
+2026-01-27 11:04:17,948 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf100-010_trimmed.qasm
+2026-01-27 11:04:19,084 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:04:19,085 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf100-010_trimmed.qasm
+2026-01-27 11:04:19,086 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uf20-010.qasm
+2026-01-27 11:04:19,089 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uf20-010_trimmed.qasm
+2026-01-27 11:04:19,823 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:04:19,824 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uf20-010_trimmed.qasm
+2026-01-27 11:04:19,825 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf150-08.qasm
+2026-01-27 11:04:19,837 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf150-08_trimmed.qasm
+2026-01-27 11:04:21,151 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:04:21,153 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf150-08_trimmed.qasm
+2026-01-27 11:04:21,153 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf50-06.qasm
+2026-01-27 11:04:21,157 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf50-06_trimmed.qasm
+2026-01-27 11:04:21,923 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:04:21,924 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf50-06_trimmed.qasm
+2026-01-27 11:04:21,925 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf225-04.qasm
+2026-01-27 11:04:21,946 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf225-04_trimmed.qasm
+2026-01-27 11:04:23,625 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:04:23,627 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf225-04_trimmed.qasm
+2026-01-27 11:04:23,627 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf75-05.qasm
+2026-01-27 11:04:23,633 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf75-05_trimmed.qasm
+2026-01-27 11:04:24,587 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:04:24,589 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf75-05_trimmed.qasm
+2026-01-27 11:04:24,589 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf200-08.qasm
+2026-01-27 11:04:24,608 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf200-08_trimmed.qasm
+2026-01-27 11:04:26,177 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:04:26,178 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf200-08_trimmed.qasm
+2026-01-27 11:04:26,179 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf175-02.qasm
+2026-01-27 11:04:26,194 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf175-02_trimmed.qasm
+2026-01-27 11:04:27,611 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:04:27,612 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf175-02_trimmed.qasm
+2026-01-27 11:04:27,613 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf50-05.qasm
+2026-01-27 11:04:27,623 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf50-05_trimmed.qasm
+2026-01-27 11:04:28,392 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:04:28,393 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf50-05_trimmed.qasm
+2026-01-27 11:04:28,393 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf150-03.qasm
+2026-01-27 11:04:28,408 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf150-03_trimmed.qasm
+2026-01-27 11:04:29,768 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:04:29,769 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf150-03_trimmed.qasm
+2026-01-27 11:04:29,769 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf225-01.qasm
+2026-01-27 11:04:29,785 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf225-01_trimmed.qasm
+2026-01-27 11:04:31,466 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:04:31,467 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf225-01_trimmed.qasm
+2026-01-27 11:04:31,467 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf175-05.qasm
+2026-01-27 11:04:31,486 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf175-05_trimmed.qasm
+2026-01-27 11:04:32,865 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:04:32,868 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf175-05_trimmed.qasm
+2026-01-27 11:04:32,868 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf175-06.qasm
+2026-01-27 11:04:32,881 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf175-06_trimmed.qasm
+2026-01-27 11:04:34,326 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:04:34,327 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf175-06_trimmed.qasm
+2026-01-27 11:04:34,327 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf200-07.qasm
+2026-01-27 11:04:34,344 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf200-07_trimmed.qasm
+2026-01-27 11:04:35,974 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:04:35,977 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf200-07_trimmed.qasm
+2026-01-27 11:04:35,977 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf250-02.qasm
+2026-01-27 11:04:35,997 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf250-02_trimmed.qasm
+2026-01-27 11:04:37,661 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:04:37,663 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf250-02_trimmed.qasm
+2026-01-27 11:04:37,664 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf150-07.qasm
+2026-01-27 11:04:37,674 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf150-07_trimmed.qasm
+2026-01-27 11:04:38,971 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:04:38,972 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf150-07_trimmed.qasm
+2026-01-27 11:04:38,973 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf250-01.qasm
+2026-01-27 11:04:38,990 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf250-01_trimmed.qasm
+2026-01-27 11:04:40,743 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:04:40,744 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf250-01_trimmed.qasm
+2026-01-27 11:04:40,744 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf75-04.qasm
+2026-01-27 11:04:40,755 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf75-04_trimmed.qasm
+2026-01-27 11:04:41,712 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:04:41,714 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf75-04_trimmed.qasm
+2026-01-27 11:04:41,714 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf225-07.qasm
+2026-01-27 11:04:41,733 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf225-07_trimmed.qasm
+2026-01-27 11:04:43,407 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:04:43,409 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf225-07_trimmed.qasm
+2026-01-27 11:04:43,409 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf225-06.qasm
+2026-01-27 11:04:43,429 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf225-06_trimmed.qasm
+2026-01-27 11:04:45,074 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:04:45,075 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf225-06_trimmed.qasm
+2026-01-27 11:04:45,075 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uf20-03.qasm
+2026-01-27 11:04:45,080 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uf20-03_trimmed.qasm
+2026-01-27 11:04:45,731 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:04:45,732 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uf20-03_trimmed.qasm
+2026-01-27 11:04:45,732 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf50-07.qasm
+2026-01-27 11:04:45,737 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf50-07_trimmed.qasm
+2026-01-27 11:04:46,490 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:04:46,491 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf50-07_trimmed.qasm
+2026-01-27 11:04:46,494 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf150-09.qasm
+2026-01-27 11:04:46,503 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf150-09_trimmed.qasm
+2026-01-27 11:04:47,779 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:04:47,780 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf150-09_trimmed.qasm
+2026-01-27 11:04:47,781 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf100-09.qasm
+2026-01-27 11:04:47,788 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf100-09_trimmed.qasm
+2026-01-27 11:04:48,913 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:04:48,915 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf100-09_trimmed.qasm
+2026-01-27 11:04:48,915 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uf20-01.qasm
+2026-01-27 11:04:48,919 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uf20-01_trimmed.qasm
+2026-01-27 11:04:49,586 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:04:49,587 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uf20-01_trimmed.qasm
+2026-01-27 11:04:49,595 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf200-02.qasm
+2026-01-27 11:04:49,613 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf200-02_trimmed.qasm
+2026-01-27 11:04:51,190 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:04:51,192 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf200-02_trimmed.qasm
+2026-01-27 11:04:51,193 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf75-07.qasm
+2026-01-27 11:04:51,199 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf75-07_trimmed.qasm
+2026-01-27 11:04:52,144 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:04:52,145 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf75-07_trimmed.qasm
+2026-01-27 11:04:52,146 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf225-08.qasm
+2026-01-27 11:04:52,163 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf225-08_trimmed.qasm
+2026-01-27 11:04:53,799 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:04:53,800 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf225-08_trimmed.qasm
+2026-01-27 11:04:53,801 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf175-08.qasm
+2026-01-27 11:04:53,816 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf175-08_trimmed.qasm
+2026-01-27 11:04:55,239 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:04:55,241 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf175-08_trimmed.qasm
+2026-01-27 11:04:55,242 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf150-06.qasm
+2026-01-27 11:04:55,256 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf150-06_trimmed.qasm
+2026-01-27 11:04:56,528 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:04:56,530 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf150-06_trimmed.qasm
+2026-01-27 11:04:56,530 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf150-02.qasm
+2026-01-27 11:04:56,546 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf150-02_trimmed.qasm
+2026-01-27 11:04:57,804 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:04:57,805 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf150-02_trimmed.qasm
+2026-01-27 11:04:57,806 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf75-02.qasm
+2026-01-27 11:04:57,812 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf75-02_trimmed.qasm
+2026-01-27 11:04:58,729 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:04:58,730 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf75-02_trimmed.qasm
+2026-01-27 11:04:58,731 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf50-02.qasm
+2026-01-27 11:04:58,736 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf50-02_trimmed.qasm
+2026-01-27 11:04:59,482 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:04:59,484 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf50-02_trimmed.qasm
+2026-01-27 11:04:59,485 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf125-07.qasm
+2026-01-27 11:04:59,494 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf125-07_trimmed.qasm
+2026-01-27 11:05:00,724 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:05:00,725 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf125-07_trimmed.qasm
+2026-01-27 11:05:00,726 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf125-09.qasm
+2026-01-27 11:05:00,738 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf125-09_trimmed.qasm
+2026-01-27 11:05:01,936 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:05:01,937 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf125-09_trimmed.qasm
+2026-01-27 11:05:01,937 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf200-09.qasm
+2026-01-27 11:05:01,955 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf200-09_trimmed.qasm
+2026-01-27 11:05:03,537 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:05:03,539 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf200-09_trimmed.qasm
+2026-01-27 11:05:03,540 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf100-02.qasm
+2026-01-27 11:05:03,546 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf100-02_trimmed.qasm
+2026-01-27 11:05:04,681 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:05:04,683 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf100-02_trimmed.qasm
+2026-01-27 11:05:04,684 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf250-03.qasm
+2026-01-27 11:05:04,705 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf250-03_trimmed.qasm
+2026-01-27 11:05:06,722 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:05:06,724 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf250-03_trimmed.qasm
+2026-01-27 11:05:06,724 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uf20-05.qasm
+2026-01-27 11:05:06,730 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uf20-05_trimmed.qasm
+2026-01-27 11:05:07,398 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:05:07,400 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uf20-05_trimmed.qasm
+2026-01-27 11:05:07,400 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf200-05.qasm
+2026-01-27 11:05:07,420 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf200-05_trimmed.qasm
+2026-01-27 11:05:09,015 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:05:09,016 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf200-05_trimmed.qasm
+2026-01-27 11:05:09,017 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf125-03.qasm
+2026-01-27 11:05:09,025 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf125-03_trimmed.qasm
+2026-01-27 11:05:10,257 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:05:10,259 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf125-03_trimmed.qasm
+2026-01-27 11:05:10,260 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf175-010.qasm
+2026-01-27 11:05:10,275 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf175-010_trimmed.qasm
+2026-01-27 11:05:11,696 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:05:11,697 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf175-010_trimmed.qasm
+2026-01-27 11:05:11,698 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf125-06.qasm
+2026-01-27 11:05:11,707 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf125-06_trimmed.qasm
+2026-01-27 11:05:12,883 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:05:12,884 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf125-06_trimmed.qasm
+2026-01-27 11:05:12,885 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf125-01.qasm
+2026-01-27 11:05:12,893 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf125-01_trimmed.qasm
+2026-01-27 11:05:14,064 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:05:14,066 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf125-01_trimmed.qasm
+2026-01-27 11:05:14,066 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf75-08.qasm
+2026-01-27 11:05:14,073 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf75-08_trimmed.qasm
+2026-01-27 11:05:14,964 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:05:14,965 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf75-08_trimmed.qasm
+2026-01-27 11:05:14,966 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf100-05.qasm
+2026-01-27 11:05:14,974 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf100-05_trimmed.qasm
+2026-01-27 11:05:16,094 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:05:16,096 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf100-05_trimmed.qasm
+2026-01-27 11:05:16,096 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf125-010.qasm
+2026-01-27 11:05:16,104 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf125-010_trimmed.qasm
+2026-01-27 11:05:17,296 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:05:17,299 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf125-010_trimmed.qasm
+2026-01-27 11:05:17,300 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf225-010.qasm
+2026-01-27 11:05:17,319 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf225-010_trimmed.qasm
+2026-01-27 11:05:18,995 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:05:18,996 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf225-010_trimmed.qasm
+2026-01-27 11:05:18,996 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf100-08.qasm
+2026-01-27 11:05:19,009 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf100-08_trimmed.qasm
+2026-01-27 11:05:20,075 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:05:20,076 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf100-08_trimmed.qasm
+2026-01-27 11:05:20,077 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf50-08.qasm
+2026-01-27 11:05:20,083 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf50-08_trimmed.qasm
+2026-01-27 11:05:20,949 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:05:20,950 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf50-08_trimmed.qasm
+2026-01-27 11:05:20,951 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf100-04.qasm
+2026-01-27 11:05:20,962 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf100-04_trimmed.qasm
+2026-01-27 11:05:22,020 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:05:22,022 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf100-04_trimmed.qasm
+2026-01-27 11:05:22,023 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf175-03.qasm
+2026-01-27 11:05:22,038 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf175-03_trimmed.qasm
+2026-01-27 11:05:23,456 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:05:23,457 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf175-03_trimmed.qasm
+2026-01-27 11:05:23,458 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf225-05.qasm
+2026-01-27 11:05:23,476 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf225-05_trimmed.qasm
+2026-01-27 11:05:25,124 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:05:25,125 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf225-05_trimmed.qasm
+2026-01-27 11:05:25,126 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf50-04.qasm
+2026-01-27 11:05:25,131 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf50-04_trimmed.qasm
+2026-01-27 11:05:25,906 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:05:25,908 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf50-04_trimmed.qasm
+2026-01-27 11:05:25,908 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf175-07.qasm
+2026-01-27 11:05:25,922 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf175-07_trimmed.qasm
+2026-01-27 11:05:27,351 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:05:27,352 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf175-07_trimmed.qasm
+2026-01-27 11:05:27,353 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf50-010.qasm
+2026-01-27 11:05:27,360 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf50-010_trimmed.qasm
+2026-01-27 11:05:28,159 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:05:28,161 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf50-010_trimmed.qasm
+2026-01-27 11:05:28,162 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf200-06.qasm
+2026-01-27 11:05:28,172 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf200-06_trimmed.qasm
+2026-01-27 11:05:29,802 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:05:29,804 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf200-06_trimmed.qasm
+2026-01-27 11:05:29,804 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf150-04.qasm
+2026-01-27 11:05:29,818 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf150-04_trimmed.qasm
+2026-01-27 11:05:31,077 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:05:31,079 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf150-04_trimmed.qasm
+2026-01-27 11:05:31,080 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf125-04.qasm
+2026-01-27 11:05:31,088 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf125-04_trimmed.qasm
+2026-01-27 11:05:32,234 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:05:32,235 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf125-04_trimmed.qasm
+2026-01-27 11:05:32,236 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf75-09.qasm
+2026-01-27 11:05:32,243 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf75-09_trimmed.qasm
+2026-01-27 11:05:33,176 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:05:33,178 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf75-09_trimmed.qasm
+2026-01-27 11:05:33,178 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf175-04.qasm
+2026-01-27 11:05:33,193 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf175-04_trimmed.qasm
+2026-01-27 11:05:34,654 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:05:34,656 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf175-04_trimmed.qasm
+2026-01-27 11:05:34,656 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf250-010.qasm
+2026-01-27 11:05:34,678 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf250-010_trimmed.qasm
+2026-01-27 11:05:36,410 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:05:36,411 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf250-010_trimmed.qasm
+2026-01-27 11:05:36,413 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf125-08.qasm
+2026-01-27 11:05:36,429 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf125-08_trimmed.qasm
+2026-01-27 11:05:37,715 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:05:37,717 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf125-08_trimmed.qasm
+2026-01-27 11:05:37,717 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf250-05.qasm
+2026-01-27 11:05:37,738 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf250-05_trimmed.qasm
+2026-01-27 11:05:39,442 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:05:39,444 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf250-05_trimmed.qasm
+2026-01-27 11:05:39,446 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf75-06.qasm
+2026-01-27 11:05:39,454 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf75-06_trimmed.qasm
+2026-01-27 11:05:40,454 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:05:40,455 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf75-06_trimmed.qasm
+2026-01-27 11:05:40,456 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf50-09.qasm
+2026-01-27 11:05:40,461 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf50-09_trimmed.qasm
+2026-01-27 11:05:41,327 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:05:41,328 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf50-09_trimmed.qasm
+2026-01-27 11:05:41,329 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf175-09.qasm
+2026-01-27 11:05:41,352 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf175-09_trimmed.qasm
+2026-01-27 11:05:42,772 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:05:42,773 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf175-09_trimmed.qasm
+2026-01-27 11:05:42,774 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf200-04.qasm
+2026-01-27 11:05:42,790 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf200-04_trimmed.qasm
+2026-01-27 11:05:44,420 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:05:44,421 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf200-04_trimmed.qasm
+2026-01-27 11:05:44,422 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf75-03.qasm
+2026-01-27 11:05:44,428 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf75-03_trimmed.qasm
+2026-01-27 11:05:45,437 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:05:45,438 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf75-03_trimmed.qasm
+2026-01-27 11:05:45,439 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf100-03.qasm
+2026-01-27 11:05:45,450 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf100-03_trimmed.qasm
+2026-01-27 11:05:46,645 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:05:46,646 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf100-03_trimmed.qasm
+2026-01-27 11:05:46,647 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf100-06.qasm
+2026-01-27 11:05:46,657 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf100-06_trimmed.qasm
+2026-01-27 11:05:47,858 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:05:47,859 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf100-06_trimmed.qasm
+2026-01-27 11:05:47,859 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf200-010.qasm
+2026-01-27 11:05:47,877 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf200-010_trimmed.qasm
+2026-01-27 11:05:49,531 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:05:49,532 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf200-010_trimmed.qasm
+2026-01-27 11:05:49,533 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf150-01.qasm
+2026-01-27 11:05:49,544 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf150-01_trimmed.qasm
+2026-01-27 11:05:51,043 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:05:51,045 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf150-01_trimmed.qasm
+2026-01-27 11:05:51,045 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uf20-02.qasm
+2026-01-27 11:05:51,049 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uf20-02_trimmed.qasm
+2026-01-27 11:05:51,786 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:05:51,787 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uf20-02_trimmed.qasm
+2026-01-27 11:05:51,788 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf200-03.qasm
+2026-01-27 11:05:51,803 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf200-03_trimmed.qasm
+2026-01-27 11:05:53,405 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:05:53,407 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf200-03_trimmed.qasm
+2026-01-27 11:05:53,407 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf125-02.qasm
+2026-01-27 11:05:53,417 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf125-02_trimmed.qasm
+2026-01-27 11:05:54,718 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:05:54,720 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf125-02_trimmed.qasm
+2026-01-27 11:05:54,721 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf250-06.qasm
+2026-01-27 11:05:54,740 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf250-06_trimmed.qasm
+2026-01-27 11:05:56,583 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:05:56,584 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf250-06_trimmed.qasm
+2026-01-27 11:05:56,585 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf50-03.qasm
+2026-01-27 11:05:56,591 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf50-03_trimmed.qasm
+2026-01-27 11:05:57,398 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:05:57,399 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf50-03_trimmed.qasm
+2026-01-27 11:05:57,400 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uf20-06.qasm
+2026-01-27 11:05:57,405 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uf20-06_trimmed.qasm
+2026-01-27 11:05:58,093 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:05:58,094 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uf20-06_trimmed.qasm
+2026-01-27 11:05:58,095 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf125-05.qasm
+2026-01-27 11:05:58,107 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf125-05_trimmed.qasm
+2026-01-27 11:05:59,410 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:05:59,411 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf125-05_trimmed.qasm
+2026-01-27 11:05:59,412 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf225-02.qasm
+2026-01-27 11:05:59,435 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf225-02_trimmed.qasm
+2026-01-27 11:06:01,171 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:06:01,173 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf225-02_trimmed.qasm
+2026-01-27 11:06:01,174 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf250-07.qasm
+2026-01-27 11:06:01,193 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf250-07_trimmed.qasm
+2026-01-27 11:06:02,977 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:06:02,978 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf250-07_trimmed.qasm
+2026-01-27 11:06:02,979 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf75-010.qasm
+2026-01-27 11:06:02,988 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf75-010_trimmed.qasm
+2026-01-27 11:06:03,995 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:06:03,996 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf75-010_trimmed.qasm
+2026-01-27 11:06:03,997 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uf20-08.qasm
+2026-01-27 11:06:04,003 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uf20-08_trimmed.qasm
+2026-01-27 11:06:04,728 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:06:04,729 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uf20-08_trimmed.qasm
+2026-01-27 11:06:04,730 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf250-04.qasm
+2026-01-27 11:06:04,747 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf250-04_trimmed.qasm
+2026-01-27 11:06:06,760 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:06:06,762 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf250-04_trimmed.qasm
+2026-01-27 11:06:06,762 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf225-09.qasm
+2026-01-27 11:06:06,775 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf225-09_trimmed.qasm
+2026-01-27 11:06:08,502 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:06:08,503 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf225-09_trimmed.qasm
+2026-01-27 11:06:08,503 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf50-01.qasm
+2026-01-27 11:06:08,510 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf50-01_trimmed.qasm
+2026-01-27 11:06:09,365 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:06:09,366 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf50-01_trimmed.qasm
+2026-01-27 11:06:09,367 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf100-01.qasm
+2026-01-27 11:06:09,373 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf100-01_trimmed.qasm
+2026-01-27 11:06:10,486 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:06:10,487 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf100-01_trimmed.qasm
+2026-01-27 11:06:10,488 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf225-03.qasm
+2026-01-27 11:06:10,506 - Compiler.nalac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf225-03_trimmed.qasm
+2026-01-27 11:06:12,257 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-01-27 11:06:12,258 - Compiler.nalac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf225-03_trimmed.qasm

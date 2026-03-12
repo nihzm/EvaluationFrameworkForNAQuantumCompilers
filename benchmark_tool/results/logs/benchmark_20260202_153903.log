@@ -1,0 +1,431 @@
+2026-02-02 15:39:03,524 - BenchmarkManager - INFO - Initializing 1 compilers...
+2026-02-02 15:39:03,524 - BenchmarkManager - INFO - Starting benchmark execution ...
+2026-02-02 15:39:03,528 - BenchmarkManager - INFO - Found 100 benchmark circuits in ./benchmarks
+2026-02-02 15:39:03,528 - BenchmarkManager - INFO - Loaded 100 benchmark circuits
+2026-02-02 15:39:03,528 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uf20-07.qasm
+2026-02-02 15:39:05,231 - Compiler.parallax - INFO - STDOUT:
+Starting compilation using GRAPHINE-based compiler...
+Compilation successful.
+
+2026-02-02 15:39:05,232 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf250-09.qasm
+2026-02-02 15:39:06,691 - Compiler.parallax - INFO - STDOUT:
+Starting compilation using GRAPHINE-based compiler...
+Compilation successful.
+
+2026-02-02 15:39:06,691 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf150-010.qasm
+2026-02-02 15:39:08,091 - Compiler.parallax - INFO - STDOUT:
+Starting compilation using GRAPHINE-based compiler...
+Compilation successful.
+
+2026-02-02 15:39:08,091 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uf20-04.qasm
+2026-02-02 15:39:09,446 - Compiler.parallax - INFO - STDOUT:
+Starting compilation using GRAPHINE-based compiler...
+Compilation successful.
+
+2026-02-02 15:39:09,447 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf200-01.qasm
+2026-02-02 15:39:10,779 - Compiler.parallax - INFO - STDOUT:
+Starting compilation using GRAPHINE-based compiler...
+Compilation successful.
+
+2026-02-02 15:39:10,779 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf250-08.qasm
+2026-02-02 15:39:12,123 - Compiler.parallax - INFO - STDOUT:
+Starting compilation using GRAPHINE-based compiler...
+Compilation successful.
+
+2026-02-02 15:39:12,123 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf75-01.qasm
+2026-02-02 15:39:13,461 - Compiler.parallax - INFO - STDOUT:
+Starting compilation using GRAPHINE-based compiler...
+Compilation successful.
+
+2026-02-02 15:39:13,461 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf100-07.qasm
+2026-02-02 15:39:14,725 - Compiler.parallax - INFO - STDOUT:
+Starting compilation using GRAPHINE-based compiler...
+Compilation successful.
+
+2026-02-02 15:39:14,725 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf175-01.qasm
+2026-02-02 15:39:16,109 - Compiler.parallax - INFO - STDOUT:
+Starting compilation using GRAPHINE-based compiler...
+Compilation successful.
+
+2026-02-02 15:39:16,109 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uf20-09.qasm
+2026-02-02 15:39:17,405 - Compiler.parallax - INFO - STDOUT:
+Starting compilation using GRAPHINE-based compiler...
+Compilation successful.
+
+2026-02-02 15:39:17,405 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf150-05.qasm
+2026-02-02 15:39:18,772 - Compiler.parallax - INFO - STDOUT:
+Starting compilation using GRAPHINE-based compiler...
+Compilation successful.
+
+2026-02-02 15:39:18,772 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf100-010.qasm
+2026-02-02 15:39:20,118 - Compiler.parallax - INFO - STDOUT:
+Starting compilation using GRAPHINE-based compiler...
+Compilation successful.
+
+2026-02-02 15:39:20,118 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uf20-010.qasm
+2026-02-02 15:39:21,432 - Compiler.parallax - INFO - STDOUT:
+Starting compilation using GRAPHINE-based compiler...
+Compilation successful.
+
+2026-02-02 15:39:21,432 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf150-08.qasm
+2026-02-02 15:39:22,773 - Compiler.parallax - INFO - STDOUT:
+Starting compilation using GRAPHINE-based compiler...
+Compilation successful.
+
+2026-02-02 15:39:22,773 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf50-06.qasm
+2026-02-02 15:39:24,094 - Compiler.parallax - INFO - STDOUT:
+Starting compilation using GRAPHINE-based compiler...
+Compilation successful.
+
+2026-02-02 15:39:24,094 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf225-04.qasm
+2026-02-02 15:39:25,492 - Compiler.parallax - INFO - STDOUT:
+Starting compilation using GRAPHINE-based compiler...
+Compilation successful.
+
+2026-02-02 15:39:25,492 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf75-05.qasm
+2026-02-02 15:39:26,838 - Compiler.parallax - INFO - STDOUT:
+Starting compilation using GRAPHINE-based compiler...
+Compilation successful.
+
+2026-02-02 15:39:26,838 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf200-08.qasm
+2026-02-02 15:39:28,234 - Compiler.parallax - INFO - STDOUT:
+Starting compilation using GRAPHINE-based compiler...
+Compilation successful.
+
+2026-02-02 15:39:28,234 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf175-02.qasm
+2026-02-02 15:39:29,528 - Compiler.parallax - INFO - STDOUT:
+Starting compilation using GRAPHINE-based compiler...
+Compilation successful.
+
+2026-02-02 15:39:29,528 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf50-05.qasm
+2026-02-02 15:39:30,898 - Compiler.parallax - INFO - STDOUT:
+Starting compilation using GRAPHINE-based compiler...
+Compilation successful.
+
+2026-02-02 15:39:30,898 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf150-03.qasm
+2026-02-02 15:39:32,275 - Compiler.parallax - INFO - STDOUT:
+Starting compilation using GRAPHINE-based compiler...
+Compilation successful.
+
+2026-02-02 15:39:32,275 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf225-01.qasm
+2026-02-02 15:39:33,710 - Compiler.parallax - INFO - STDOUT:
+Starting compilation using GRAPHINE-based compiler...
+Compilation successful.
+
+2026-02-02 15:39:33,710 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf175-05.qasm
+2026-02-02 15:39:35,077 - Compiler.parallax - INFO - STDOUT:
+Starting compilation using GRAPHINE-based compiler...
+Compilation successful.
+
+2026-02-02 15:39:35,077 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf175-06.qasm
+2026-02-02 15:39:36,397 - Compiler.parallax - INFO - STDOUT:
+Starting compilation using GRAPHINE-based compiler...
+Compilation successful.
+
+2026-02-02 15:39:36,397 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf200-07.qasm
+2026-02-02 15:39:37,753 - Compiler.parallax - INFO - STDOUT:
+Starting compilation using GRAPHINE-based compiler...
+Compilation successful.
+
+2026-02-02 15:39:37,753 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf250-02.qasm
+2026-02-02 15:39:39,099 - Compiler.parallax - INFO - STDOUT:
+Starting compilation using GRAPHINE-based compiler...
+Compilation successful.
+
+2026-02-02 15:39:39,099 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf150-07.qasm
+2026-02-02 15:39:40,432 - Compiler.parallax - INFO - STDOUT:
+Starting compilation using GRAPHINE-based compiler...
+Compilation successful.
+
+2026-02-02 15:39:40,433 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf250-01.qasm
+2026-02-02 15:39:41,805 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:39:41,805 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf75-04.qasm
+2026-02-02 15:39:43,145 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:39:43,145 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf225-07.qasm
+2026-02-02 15:39:44,470 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:39:44,470 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf225-06.qasm
+2026-02-02 15:39:45,843 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:39:45,843 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uf20-03.qasm
+2026-02-02 15:39:47,142 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:39:47,142 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf50-07.qasm
+2026-02-02 15:39:48,500 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:39:48,500 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf150-09.qasm
+2026-02-02 15:39:49,839 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:39:49,839 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf100-09.qasm
+2026-02-02 15:39:51,184 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:39:51,184 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uf20-01.qasm
+2026-02-02 15:39:52,501 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:39:52,501 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf200-02.qasm
+2026-02-02 15:39:53,839 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:39:53,839 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf75-07.qasm
+2026-02-02 15:39:55,149 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:39:55,149 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf225-08.qasm
+2026-02-02 15:39:56,530 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:39:56,531 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf175-08.qasm
+2026-02-02 15:39:57,886 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:39:57,886 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf150-06.qasm
+2026-02-02 15:39:59,286 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:39:59,286 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf150-02.qasm
+2026-02-02 15:40:00,644 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:40:00,644 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf75-02.qasm
+2026-02-02 15:40:02,013 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:40:02,013 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf50-02.qasm
+2026-02-02 15:40:03,414 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:40:03,414 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf125-07.qasm
+2026-02-02 15:40:04,906 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:40:04,906 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf125-09.qasm
+2026-02-02 15:40:06,630 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:40:06,630 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf200-09.qasm
+2026-02-02 15:40:07,922 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:40:07,922 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf100-02.qasm
+2026-02-02 15:40:09,292 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:40:09,293 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf250-03.qasm
+2026-02-02 15:40:10,696 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:40:10,696 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uf20-05.qasm
+2026-02-02 15:40:12,102 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:40:12,103 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf200-05.qasm
+2026-02-02 15:40:13,495 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:40:13,495 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf125-03.qasm
+2026-02-02 15:40:14,880 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:40:14,880 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf175-010.qasm
+2026-02-02 15:40:16,237 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:40:16,237 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf125-06.qasm
+2026-02-02 15:40:17,545 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:40:17,545 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf125-01.qasm
+2026-02-02 15:40:18,902 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:40:18,902 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf75-08.qasm
+2026-02-02 15:40:20,252 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:40:20,252 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf100-05.qasm
+2026-02-02 15:40:21,585 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:40:21,585 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf125-010.qasm
+2026-02-02 15:40:22,928 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:40:22,928 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf225-010.qasm
+2026-02-02 15:40:24,330 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:40:24,331 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf100-08.qasm
+2026-02-02 15:40:25,711 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:40:25,711 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf50-08.qasm
+2026-02-02 15:40:27,035 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:40:27,035 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf100-04.qasm
+2026-02-02 15:40:28,380 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:40:28,380 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf175-03.qasm
+2026-02-02 15:40:29,764 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:40:29,764 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf225-05.qasm
+2026-02-02 15:40:31,161 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:40:31,161 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf50-04.qasm
+2026-02-02 15:40:32,516 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:40:32,516 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf175-07.qasm
+2026-02-02 15:40:33,855 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:40:33,855 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf50-010.qasm
+2026-02-02 15:40:35,226 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:40:35,226 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf200-06.qasm
+2026-02-02 15:40:36,495 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:40:36,495 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf150-04.qasm
+2026-02-02 15:40:37,866 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:40:37,866 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf125-04.qasm
+2026-02-02 15:40:39,235 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:40:39,235 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf75-09.qasm
+2026-02-02 15:40:40,581 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:40:40,581 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf175-04.qasm
+2026-02-02 15:40:41,923 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:40:41,924 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf250-010.qasm
+2026-02-02 15:40:43,275 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:40:43,275 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf125-08.qasm
+2026-02-02 15:40:44,616 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:40:44,616 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf250-05.qasm
+2026-02-02 15:40:45,992 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:40:45,992 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf75-06.qasm
+2026-02-02 15:40:47,362 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:40:47,362 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf50-09.qasm
+2026-02-02 15:40:48,716 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:40:48,716 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf175-09.qasm
+2026-02-02 15:40:50,102 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:40:50,102 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf200-04.qasm
+2026-02-02 15:40:51,513 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:40:51,513 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf75-03.qasm
+2026-02-02 15:40:52,834 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:40:52,834 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf100-03.qasm
+2026-02-02 15:40:54,176 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:40:54,176 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf100-06.qasm
+2026-02-02 15:40:55,549 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:40:55,549 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf200-010.qasm
+2026-02-02 15:40:56,938 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:40:56,938 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf150-01.qasm
+2026-02-02 15:40:58,262 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:40:58,262 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uf20-02.qasm
+2026-02-02 15:40:59,588 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:40:59,589 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf200-03.qasm
+2026-02-02 15:41:00,985 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:41:00,985 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf125-02.qasm
+2026-02-02 15:41:02,379 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:41:02,379 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf250-06.qasm
+2026-02-02 15:41:03,799 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:41:03,799 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf50-03.qasm
+2026-02-02 15:41:05,178 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:41:05,178 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uf20-06.qasm
+2026-02-02 15:41:07,034 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:41:07,034 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf125-05.qasm
+2026-02-02 15:41:08,395 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:41:08,396 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf225-02.qasm
+2026-02-02 15:41:09,772 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:41:09,772 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf250-07.qasm
+2026-02-02 15:41:11,204 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:41:11,204 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf75-010.qasm
+2026-02-02 15:41:12,526 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:41:12,526 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uf20-08.qasm
+2026-02-02 15:41:13,870 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:41:13,870 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf250-04.qasm
+2026-02-02 15:41:15,267 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:41:15,267 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf225-09.qasm
+2026-02-02 15:41:16,678 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:41:16,678 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf50-01.qasm
+2026-02-02 15:41:17,990 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:41:17,990 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf100-01.qasm
+2026-02-02 15:41:19,314 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:41:19,314 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf225-03.qasm
+2026-02-02 15:41:20,699 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+

@@ -1,0 +1,101 @@
+2026-02-06 11:14:08,952 - BenchmarkManager - INFO - Initializing 1 compilers...
+2026-02-06 11:14:08,953 - BenchmarkManager - INFO - Starting benchmark execution ...
+2026-02-06 11:14:08,955 - BenchmarkManager - INFO - Found 100 benchmark circuits in ./benchmarks
+2026-02-06 11:14:08,955 - BenchmarkManager - INFO - Loaded 100 benchmark circuits
+2026-02-06 11:14:08,956 - BenchmarkManager - INFO - dasatom (run 1/1) - Running benchmarks/qasm/uf20-07.qasm
+2026-02-06 11:14:10,124 - Compiler.dasatom - ERROR - STDERR:
+Traceback (most recent call last):
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/DasAtom/run.py", line 41, in <module>
+    main()
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/DasAtom/run.py", line 13, in main
+    error, success = compile(args.circuit, args.result_dir)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/DasAtom/run.py", line 25, in compile
+    compiler = DasAtom( #TODO: configure these parameters properly
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/compilers/DasAtom/DasAtom.py", line 366, in __init__
+    assert os.path.exists(circuit_folder), f"Directory not found: {circuit_folder}"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Directory not found: results/circuits/dasatom/uf20-07
+
+2026-02-06 11:14:10,124 - BenchmarkManager - INFO - dasatom (run 1/1) - Running benchmarks/qasm/uuf250-09.qasm
+2026-02-06 11:14:11,094 - Compiler.dasatom - ERROR - STDERR:
+Traceback (most recent call last):
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/DasAtom/run.py", line 41, in <module>
+    main()
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/DasAtom/run.py", line 13, in main
+    error, success = compile(args.circuit, args.result_dir)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/DasAtom/run.py", line 25, in compile
+    compiler = DasAtom( #TODO: configure these parameters properly
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/compilers/DasAtom/DasAtom.py", line 366, in __init__
+    assert os.path.exists(circuit_folder), f"Directory not found: {circuit_folder}"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Directory not found: results/circuits/dasatom/uuf250-09
+
+2026-02-06 11:14:11,094 - BenchmarkManager - INFO - dasatom (run 1/1) - Running benchmarks/qasm/uuf150-010.qasm
+2026-02-06 11:14:12,088 - Compiler.dasatom - ERROR - STDERR:
+Traceback (most recent call last):
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/DasAtom/run.py", line 41, in <module>
+    main()
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/DasAtom/run.py", line 13, in main
+    error, success = compile(args.circuit, args.result_dir)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/DasAtom/run.py", line 25, in compile
+    compiler = DasAtom( #TODO: configure these parameters properly
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/compilers/DasAtom/DasAtom.py", line 366, in __init__
+    assert os.path.exists(circuit_folder), f"Directory not found: {circuit_folder}"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Directory not found: results/circuits/dasatom/uuf150-010
+
+2026-02-06 11:14:12,089 - BenchmarkManager - INFO - dasatom (run 1/1) - Running benchmarks/qasm/uf20-04.qasm
+2026-02-06 11:14:13,210 - Compiler.dasatom - ERROR - STDERR:
+Traceback (most recent call last):
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/DasAtom/run.py", line 41, in <module>
+    main()
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/DasAtom/run.py", line 13, in main
+    error, success = compile(args.circuit, args.result_dir)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/DasAtom/run.py", line 25, in compile
+    compiler = DasAtom( #TODO: configure these parameters properly
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/compilers/DasAtom/DasAtom.py", line 366, in __init__
+    assert os.path.exists(circuit_folder), f"Directory not found: {circuit_folder}"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Directory not found: results/circuits/dasatom/uf20-04
+
+2026-02-06 11:14:13,210 - BenchmarkManager - INFO - dasatom (run 1/1) - Running benchmarks/qasm/uuf200-01.qasm
+2026-02-06 11:14:14,185 - Compiler.dasatom - ERROR - STDERR:
+Traceback (most recent call last):
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/DasAtom/run.py", line 41, in <module>
+    main()
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/DasAtom/run.py", line 13, in main
+    error, success = compile(args.circuit, args.result_dir)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/DasAtom/run.py", line 25, in compile
+    compiler = DasAtom( #TODO: configure these parameters properly
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/compilers/DasAtom/DasAtom.py", line 366, in __init__
+    assert os.path.exists(circuit_folder), f"Directory not found: {circuit_folder}"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Directory not found: results/circuits/dasatom/uuf200-01
+
+2026-02-06 11:14:14,185 - BenchmarkManager - INFO - dasatom (run 1/1) - Running benchmarks/qasm/uuf250-08.qasm
+2026-02-06 11:14:15,160 - Compiler.dasatom - ERROR - STDERR:
+Traceback (most recent call last):
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/DasAtom/run.py", line 41, in <module>
+    main()
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/DasAtom/run.py", line 13, in main
+    error, success = compile(args.circuit, args.result_dir)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/DasAtom/run.py", line 25, in compile
+    compiler = DasAtom( #TODO: configure these parameters properly
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/compilers/DasAtom/DasAtom.py", line 366, in __init__
+    assert os.path.exists(circuit_folder), f"Directory not found: {circuit_folder}"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Directory not found: results/circuits/dasatom/uuf250-08
+
+2026-02-06 11:14:15,160 - BenchmarkManager - INFO - dasatom (run 1/1) - Running benchmarks/qasm/uuf75-01.qasm

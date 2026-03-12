@@ -1,0 +1,173 @@
+2026-01-27 10:56:18,048 - BenchmarkManager - INFO - Initializing 1 compilers...
+2026-01-27 10:56:18,048 - BenchmarkManager - INFO - Starting benchmark execution ...
+2026-01-27 10:56:18,050 - BenchmarkManager - INFO - Found 100 benchmark circuits in ./benchmarks
+2026-01-27 10:56:18,050 - BenchmarkManager - INFO - Loaded 100 benchmark circuits
+2026-01-27 10:56:18,050 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uf20-07.qasm
+2026-01-27 10:56:18,856 - Compiler.nalac - ERROR - STDERR:
+Traceback (most recent call last):
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 132, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 92, in main
+    error, success = compile(args.circuit, args.result_dir, args.arch_json, args.zac)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 117, in compile
+    navizResult = compiler.compile(circ)
+                  ^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Operation type not supported: measure with 0 controls and 1 targets
+
+2026-01-27 10:56:18,856 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf250-09.qasm
+2026-01-27 10:56:19,720 - Compiler.nalac - ERROR - STDERR:
+Traceback (most recent call last):
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 132, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 92, in main
+    error, success = compile(args.circuit, args.result_dir, args.arch_json, args.zac)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 117, in compile
+    navizResult = compiler.compile(circ)
+                  ^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Operation type not supported: measure with 0 controls and 1 targets
+
+2026-01-27 10:56:19,721 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf150-010.qasm
+2026-01-27 10:56:20,546 - Compiler.nalac - ERROR - STDERR:
+Traceback (most recent call last):
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 132, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 92, in main
+    error, success = compile(args.circuit, args.result_dir, args.arch_json, args.zac)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 117, in compile
+    navizResult = compiler.compile(circ)
+                  ^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Operation type not supported: measure with 0 controls and 1 targets
+
+2026-01-27 10:56:20,546 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uf20-04.qasm
+2026-01-27 10:56:21,168 - Compiler.nalac - ERROR - STDERR:
+Traceback (most recent call last):
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 132, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 92, in main
+    error, success = compile(args.circuit, args.result_dir, args.arch_json, args.zac)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 117, in compile
+    navizResult = compiler.compile(circ)
+                  ^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Operation type not supported: measure with 0 controls and 1 targets
+
+2026-01-27 10:56:21,168 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf200-01.qasm
+2026-01-27 10:56:21,981 - Compiler.nalac - ERROR - STDERR:
+Traceback (most recent call last):
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 132, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 92, in main
+    error, success = compile(args.circuit, args.result_dir, args.arch_json, args.zac)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 117, in compile
+    navizResult = compiler.compile(circ)
+                  ^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Operation type not supported: measure with 0 controls and 1 targets
+
+2026-01-27 10:56:21,981 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf250-08.qasm
+2026-01-27 10:56:22,890 - Compiler.nalac - ERROR - STDERR:
+Traceback (most recent call last):
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 132, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 92, in main
+    error, success = compile(args.circuit, args.result_dir, args.arch_json, args.zac)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 117, in compile
+    navizResult = compiler.compile(circ)
+                  ^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Operation type not supported: measure with 0 controls and 1 targets
+
+2026-01-27 10:56:22,890 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf75-01.qasm
+2026-01-27 10:56:23,606 - Compiler.nalac - ERROR - STDERR:
+Traceback (most recent call last):
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 132, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 92, in main
+    error, success = compile(args.circuit, args.result_dir, args.arch_json, args.zac)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 117, in compile
+    navizResult = compiler.compile(circ)
+                  ^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Operation type not supported: measure with 0 controls and 1 targets
+
+2026-01-27 10:56:23,606 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf100-07.qasm
+2026-01-27 10:56:24,326 - Compiler.nalac - ERROR - STDERR:
+Traceback (most recent call last):
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 132, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 92, in main
+    error, success = compile(args.circuit, args.result_dir, args.arch_json, args.zac)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 117, in compile
+    navizResult = compiler.compile(circ)
+                  ^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Operation type not supported: measure with 0 controls and 1 targets
+
+2026-01-27 10:56:24,326 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf175-01.qasm
+2026-01-27 10:56:25,145 - Compiler.nalac - ERROR - STDERR:
+Traceback (most recent call last):
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 132, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 92, in main
+    error, success = compile(args.circuit, args.result_dir, args.arch_json, args.zac)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 117, in compile
+    navizResult = compiler.compile(circ)
+                  ^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Operation type not supported: measure with 0 controls and 1 targets
+
+2026-01-27 10:56:25,145 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uf20-09.qasm
+2026-01-27 10:56:25,747 - Compiler.nalac - ERROR - STDERR:
+Traceback (most recent call last):
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 132, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 92, in main
+    error, success = compile(args.circuit, args.result_dir, args.arch_json, args.zac)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 117, in compile
+    navizResult = compiler.compile(circ)
+                  ^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Operation type not supported: measure with 0 controls and 1 targets
+
+2026-01-27 10:56:25,747 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf150-05.qasm
+2026-01-27 10:56:26,523 - Compiler.nalac - ERROR - STDERR:
+Traceback (most recent call last):
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 132, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 92, in main
+    error, success = compile(args.circuit, args.result_dir, args.arch_json, args.zac)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 117, in compile
+    navizResult = compiler.compile(circ)
+                  ^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Operation type not supported: measure with 0 controls and 1 targets
+
+2026-01-27 10:56:26,523 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf100-010.qasm
+2026-01-27 10:56:27,259 - Compiler.nalac - ERROR - STDERR:
+Traceback (most recent call last):
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 132, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 92, in main
+    error, success = compile(args.circuit, args.result_dir, args.arch_json, args.zac)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 117, in compile
+    navizResult = compiler.compile(circ)
+                  ^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Operation type not supported: measure with 0 controls and 1 targets
+
+2026-01-27 10:56:27,260 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uf20-010.qasm

@@ -1,0 +1,401 @@
+2026-02-06 17:14:20,262 - BenchmarkManager - INFO - Initializing 1 compilers...
+2026-02-06 17:14:20,262 - BenchmarkManager - INFO - Starting benchmark execution ...
+2026-02-06 17:14:20,264 - BenchmarkManager - INFO - Found 100 benchmark circuits in ./benchmarks
+2026-02-06 17:14:20,265 - BenchmarkManager - INFO - Loaded 100 benchmark circuits
+2026-02-06 17:14:20,265 - BenchmarkManager - INFO - dasatom (run 1/1) - Running benchmarks/qasm/uf20-07.qasm
+2026-02-06 17:14:21,411 - Compiler.dasatom - INFO - STDOUT:
+DasAtom Compiler Interface
+Compiling circuit: benchmarks/qasm/uf20-07.qasm
+Starting compilation process...
+Compilation successful.
+
+2026-02-06 17:14:21,412 - Compiler.dasatom - ERROR - STDERR:
+/u/halle/heiz/home_at/BachelorProject/compilers/DasAtom/DasAtom.py:373: UserWarning: The results for 'uf20-07' may be overwritten in: ./results/circuits/dasatom. Consider using a different folder to preserve existing results.
+  warnings.warn(
+
+2026-02-06 17:14:21,412 - BenchmarkManager - INFO - dasatom (run 1/1) - Running benchmarks/qasm/uuf250-09.qasm
+2026-02-06 17:14:22,390 - Compiler.dasatom - INFO - STDOUT:
+DasAtom Compiler Interface
+Compiling circuit: benchmarks/qasm/uuf250-09.qasm
+Starting compilation process...
+Compilation successful.
+
+2026-02-06 17:14:22,390 - Compiler.dasatom - ERROR - STDERR:
+/u/halle/heiz/home_at/BachelorProject/compilers/DasAtom/DasAtom.py:373: UserWarning: The results for 'uuf250-09' may be overwritten in: ./results/circuits/dasatom. Consider using a different folder to preserve existing results.
+  warnings.warn(
+
+2026-02-06 17:14:22,390 - BenchmarkManager - INFO - dasatom (run 1/1) - Running benchmarks/qasm/uuf150-010.qasm
+2026-02-06 17:14:23,354 - Compiler.dasatom - INFO - STDOUT:
+DasAtom Compiler Interface
+Compiling circuit: benchmarks/qasm/uuf150-010.qasm
+Starting compilation process...
+Compilation successful.
+
+2026-02-06 17:14:23,355 - Compiler.dasatom - ERROR - STDERR:
+/u/halle/heiz/home_at/BachelorProject/compilers/DasAtom/DasAtom.py:373: UserWarning: The results for 'uuf150-010' may be overwritten in: ./results/circuits/dasatom. Consider using a different folder to preserve existing results.
+  warnings.warn(
+
+2026-02-06 17:14:23,355 - BenchmarkManager - INFO - dasatom (run 1/1) - Running benchmarks/qasm/uf20-04.qasm
+2026-02-06 17:14:24,293 - Compiler.dasatom - INFO - STDOUT:
+DasAtom Compiler Interface
+Compiling circuit: benchmarks/qasm/uf20-04.qasm
+Starting compilation process...
+Compilation successful.
+
+2026-02-06 17:14:24,293 - Compiler.dasatom - ERROR - STDERR:
+/u/halle/heiz/home_at/BachelorProject/compilers/DasAtom/DasAtom.py:373: UserWarning: The results for 'uf20-04' may be overwritten in: ./results/circuits/dasatom. Consider using a different folder to preserve existing results.
+  warnings.warn(
+
+2026-02-06 17:14:24,293 - BenchmarkManager - INFO - dasatom (run 1/1) - Running benchmarks/qasm/uuf200-01.qasm
+2026-02-06 17:14:25,250 - Compiler.dasatom - INFO - STDOUT:
+DasAtom Compiler Interface
+Compiling circuit: benchmarks/qasm/uuf200-01.qasm
+Starting compilation process...
+Compilation successful.
+
+2026-02-06 17:14:25,250 - Compiler.dasatom - ERROR - STDERR:
+/u/halle/heiz/home_at/BachelorProject/compilers/DasAtom/DasAtom.py:373: UserWarning: The results for 'uuf200-01' may be overwritten in: ./results/circuits/dasatom. Consider using a different folder to preserve existing results.
+  warnings.warn(
+
+2026-02-06 17:14:25,252 - BenchmarkManager - INFO - dasatom (run 1/1) - Running benchmarks/qasm/uuf250-08.qasm
+2026-02-06 17:14:26,201 - Compiler.dasatom - INFO - STDOUT:
+DasAtom Compiler Interface
+Compiling circuit: benchmarks/qasm/uuf250-08.qasm
+Starting compilation process...
+Compilation successful.
+
+2026-02-06 17:14:26,201 - Compiler.dasatom - ERROR - STDERR:
+/u/halle/heiz/home_at/BachelorProject/compilers/DasAtom/DasAtom.py:373: UserWarning: The results for 'uuf250-08' may be overwritten in: ./results/circuits/dasatom. Consider using a different folder to preserve existing results.
+  warnings.warn(
+
+2026-02-06 17:14:26,203 - BenchmarkManager - INFO - dasatom (run 1/1) - Running benchmarks/qasm/uuf75-01.qasm
+2026-02-06 17:14:27,189 - Compiler.dasatom - INFO - STDOUT:
+DasAtom Compiler Interface
+Compiling circuit: benchmarks/qasm/uuf75-01.qasm
+Starting compilation process...
+Compilation successful.
+
+2026-02-06 17:14:27,189 - Compiler.dasatom - ERROR - STDERR:
+/u/halle/heiz/home_at/BachelorProject/compilers/DasAtom/DasAtom.py:373: UserWarning: The results for 'uuf75-01' may be overwritten in: ./results/circuits/dasatom. Consider using a different folder to preserve existing results.
+  warnings.warn(
+
+2026-02-06 17:14:27,189 - BenchmarkManager - INFO - dasatom (run 1/1) - Running benchmarks/qasm/uuf100-07.qasm
+2026-02-06 17:14:28,148 - Compiler.dasatom - INFO - STDOUT:
+DasAtom Compiler Interface
+Compiling circuit: benchmarks/qasm/uuf100-07.qasm
+Starting compilation process...
+Compilation successful.
+
+2026-02-06 17:14:28,148 - Compiler.dasatom - ERROR - STDERR:
+/u/halle/heiz/home_at/BachelorProject/compilers/DasAtom/DasAtom.py:373: UserWarning: The results for 'uuf100-07' may be overwritten in: ./results/circuits/dasatom. Consider using a different folder to preserve existing results.
+  warnings.warn(
+
+2026-02-06 17:14:28,148 - BenchmarkManager - INFO - dasatom (run 1/1) - Running benchmarks/qasm/uuf175-01.qasm
+2026-02-06 17:14:29,059 - Compiler.dasatom - INFO - STDOUT:
+DasAtom Compiler Interface
+Compiling circuit: benchmarks/qasm/uuf175-01.qasm
+Starting compilation process...
+Compilation successful.
+
+2026-02-06 17:14:29,059 - Compiler.dasatom - ERROR - STDERR:
+/u/halle/heiz/home_at/BachelorProject/compilers/DasAtom/DasAtom.py:373: UserWarning: The results for 'uuf175-01' may be overwritten in: ./results/circuits/dasatom. Consider using a different folder to preserve existing results.
+  warnings.warn(
+
+2026-02-06 17:14:29,059 - BenchmarkManager - INFO - dasatom (run 1/1) - Running benchmarks/qasm/uf20-09.qasm
+2026-02-06 17:14:30,004 - Compiler.dasatom - INFO - STDOUT:
+DasAtom Compiler Interface
+Compiling circuit: benchmarks/qasm/uf20-09.qasm
+Starting compilation process...
+Compilation successful.
+
+2026-02-06 17:14:30,004 - Compiler.dasatom - ERROR - STDERR:
+/u/halle/heiz/home_at/BachelorProject/compilers/DasAtom/DasAtom.py:373: UserWarning: The results for 'uf20-09' may be overwritten in: ./results/circuits/dasatom. Consider using a different folder to preserve existing results.
+  warnings.warn(
+
+2026-02-06 17:14:30,004 - BenchmarkManager - INFO - dasatom (run 1/1) - Running benchmarks/qasm/uuf150-05.qasm
+2026-02-06 17:14:30,894 - Compiler.dasatom - INFO - STDOUT:
+DasAtom Compiler Interface
+Compiling circuit: benchmarks/qasm/uuf150-05.qasm
+Starting compilation process...
+Compilation successful.
+
+2026-02-06 17:14:30,894 - Compiler.dasatom - ERROR - STDERR:
+/u/halle/heiz/home_at/BachelorProject/compilers/DasAtom/DasAtom.py:373: UserWarning: The results for 'uuf150-05' may be overwritten in: ./results/circuits/dasatom. Consider using a different folder to preserve existing results.
+  warnings.warn(
+
+2026-02-06 17:14:30,894 - BenchmarkManager - INFO - dasatom (run 1/1) - Running benchmarks/qasm/uuf100-010.qasm
+2026-02-06 17:14:31,808 - Compiler.dasatom - INFO - STDOUT:
+DasAtom Compiler Interface
+Compiling circuit: benchmarks/qasm/uuf100-010.qasm
+Starting compilation process...
+Compilation successful.
+
+2026-02-06 17:14:31,808 - Compiler.dasatom - ERROR - STDERR:
+/u/halle/heiz/home_at/BachelorProject/compilers/DasAtom/DasAtom.py:373: UserWarning: The results for 'uuf100-010' may be overwritten in: ./results/circuits/dasatom. Consider using a different folder to preserve existing results.
+  warnings.warn(
+
+2026-02-06 17:14:31,808 - BenchmarkManager - INFO - dasatom (run 1/1) - Running benchmarks/qasm/uf20-010.qasm
+2026-02-06 17:14:32,762 - Compiler.dasatom - INFO - STDOUT:
+DasAtom Compiler Interface
+Compiling circuit: benchmarks/qasm/uf20-010.qasm
+Starting compilation process...
+Compilation successful.
+
+2026-02-06 17:14:32,762 - Compiler.dasatom - ERROR - STDERR:
+/u/halle/heiz/home_at/BachelorProject/compilers/DasAtom/DasAtom.py:373: UserWarning: The results for 'uf20-010' may be overwritten in: ./results/circuits/dasatom. Consider using a different folder to preserve existing results.
+  warnings.warn(
+
+2026-02-06 17:14:32,763 - BenchmarkManager - INFO - dasatom (run 1/1) - Running benchmarks/qasm/uuf150-08.qasm
+2026-02-06 17:14:33,709 - Compiler.dasatom - INFO - STDOUT:
+DasAtom Compiler Interface
+Compiling circuit: benchmarks/qasm/uuf150-08.qasm
+Starting compilation process...
+Compilation successful.
+
+2026-02-06 17:14:33,709 - Compiler.dasatom - ERROR - STDERR:
+/u/halle/heiz/home_at/BachelorProject/compilers/DasAtom/DasAtom.py:373: UserWarning: The results for 'uuf150-08' may be overwritten in: ./results/circuits/dasatom. Consider using a different folder to preserve existing results.
+  warnings.warn(
+
+2026-02-06 17:14:33,709 - BenchmarkManager - INFO - dasatom (run 1/1) - Running benchmarks/qasm/uuf50-06.qasm
+2026-02-06 17:14:34,656 - Compiler.dasatom - INFO - STDOUT:
+DasAtom Compiler Interface
+Compiling circuit: benchmarks/qasm/uuf50-06.qasm
+Starting compilation process...
+Compilation successful.
+
+2026-02-06 17:14:34,656 - Compiler.dasatom - ERROR - STDERR:
+/u/halle/heiz/home_at/BachelorProject/compilers/DasAtom/DasAtom.py:373: UserWarning: The results for 'uuf50-06' may be overwritten in: ./results/circuits/dasatom. Consider using a different folder to preserve existing results.
+  warnings.warn(
+
+2026-02-06 17:14:34,657 - BenchmarkManager - INFO - dasatom (run 1/1) - Running benchmarks/qasm/uuf225-04.qasm
+2026-02-06 17:14:35,611 - Compiler.dasatom - INFO - STDOUT:
+DasAtom Compiler Interface
+Compiling circuit: benchmarks/qasm/uuf225-04.qasm
+Starting compilation process...
+Compilation successful.
+
+2026-02-06 17:14:35,611 - Compiler.dasatom - ERROR - STDERR:
+/u/halle/heiz/home_at/BachelorProject/compilers/DasAtom/DasAtom.py:373: UserWarning: The results for 'uuf225-04' may be overwritten in: ./results/circuits/dasatom. Consider using a different folder to preserve existing results.
+  warnings.warn(
+
+2026-02-06 17:14:35,611 - BenchmarkManager - INFO - dasatom (run 1/1) - Running benchmarks/qasm/uuf75-05.qasm
+2026-02-06 17:14:36,533 - Compiler.dasatom - INFO - STDOUT:
+DasAtom Compiler Interface
+Compiling circuit: benchmarks/qasm/uuf75-05.qasm
+Starting compilation process...
+Compilation successful.
+
+2026-02-06 17:14:36,533 - Compiler.dasatom - ERROR - STDERR:
+/u/halle/heiz/home_at/BachelorProject/compilers/DasAtom/DasAtom.py:373: UserWarning: The results for 'uuf75-05' may be overwritten in: ./results/circuits/dasatom. Consider using a different folder to preserve existing results.
+  warnings.warn(
+
+2026-02-06 17:14:36,533 - BenchmarkManager - INFO - dasatom (run 1/1) - Running benchmarks/qasm/uuf200-08.qasm
+2026-02-06 17:14:37,441 - Compiler.dasatom - INFO - STDOUT:
+DasAtom Compiler Interface
+Compiling circuit: benchmarks/qasm/uuf200-08.qasm
+Starting compilation process...
+Compilation successful.
+
+2026-02-06 17:14:37,441 - Compiler.dasatom - ERROR - STDERR:
+/u/halle/heiz/home_at/BachelorProject/compilers/DasAtom/DasAtom.py:373: UserWarning: The results for 'uuf200-08' may be overwritten in: ./results/circuits/dasatom. Consider using a different folder to preserve existing results.
+  warnings.warn(
+
+2026-02-06 17:14:37,441 - BenchmarkManager - INFO - dasatom (run 1/1) - Running benchmarks/qasm/uuf175-02.qasm
+2026-02-06 17:14:38,372 - Compiler.dasatom - INFO - STDOUT:
+DasAtom Compiler Interface
+Compiling circuit: benchmarks/qasm/uuf175-02.qasm
+Starting compilation process...
+Compilation successful.
+
+2026-02-06 17:14:38,372 - Compiler.dasatom - ERROR - STDERR:
+/u/halle/heiz/home_at/BachelorProject/compilers/DasAtom/DasAtom.py:373: UserWarning: The results for 'uuf175-02' may be overwritten in: ./results/circuits/dasatom. Consider using a different folder to preserve existing results.
+  warnings.warn(
+
+2026-02-06 17:14:38,372 - BenchmarkManager - INFO - dasatom (run 1/1) - Running benchmarks/qasm/uuf50-05.qasm
+2026-02-06 17:14:39,311 - Compiler.dasatom - INFO - STDOUT:
+DasAtom Compiler Interface
+Compiling circuit: benchmarks/qasm/uuf50-05.qasm
+Starting compilation process...
+Compilation successful.
+
+2026-02-06 17:14:39,311 - Compiler.dasatom - ERROR - STDERR:
+/u/halle/heiz/home_at/BachelorProject/compilers/DasAtom/DasAtom.py:373: UserWarning: The results for 'uuf50-05' may be overwritten in: ./results/circuits/dasatom. Consider using a different folder to preserve existing results.
+  warnings.warn(
+
+2026-02-06 17:14:39,312 - BenchmarkManager - INFO - dasatom (run 1/1) - Running benchmarks/qasm/uuf150-03.qasm
+2026-02-06 17:14:40,268 - Compiler.dasatom - INFO - STDOUT:
+DasAtom Compiler Interface
+Compiling circuit: benchmarks/qasm/uuf150-03.qasm
+Starting compilation process...
+Compilation successful.
+
+2026-02-06 17:14:40,268 - Compiler.dasatom - ERROR - STDERR:
+/u/halle/heiz/home_at/BachelorProject/compilers/DasAtom/DasAtom.py:373: UserWarning: The results for 'uuf150-03' may be overwritten in: ./results/circuits/dasatom. Consider using a different folder to preserve existing results.
+  warnings.warn(
+
+2026-02-06 17:14:40,268 - BenchmarkManager - INFO - dasatom (run 1/1) - Running benchmarks/qasm/uuf225-01.qasm
+2026-02-06 17:14:41,235 - Compiler.dasatom - INFO - STDOUT:
+DasAtom Compiler Interface
+Compiling circuit: benchmarks/qasm/uuf225-01.qasm
+Starting compilation process...
+Compilation successful.
+
+2026-02-06 17:14:41,235 - Compiler.dasatom - ERROR - STDERR:
+/u/halle/heiz/home_at/BachelorProject/compilers/DasAtom/DasAtom.py:373: UserWarning: The results for 'uuf225-01' may be overwritten in: ./results/circuits/dasatom. Consider using a different folder to preserve existing results.
+  warnings.warn(
+
+2026-02-06 17:14:41,235 - BenchmarkManager - INFO - dasatom (run 1/1) - Running benchmarks/qasm/uuf175-05.qasm
+2026-02-06 17:14:42,214 - Compiler.dasatom - INFO - STDOUT:
+DasAtom Compiler Interface
+Compiling circuit: benchmarks/qasm/uuf175-05.qasm
+Starting compilation process...
+Compilation successful.
+
+2026-02-06 17:14:42,214 - Compiler.dasatom - ERROR - STDERR:
+/u/halle/heiz/home_at/BachelorProject/compilers/DasAtom/DasAtom.py:373: UserWarning: The results for 'uuf175-05' may be overwritten in: ./results/circuits/dasatom. Consider using a different folder to preserve existing results.
+  warnings.warn(
+
+2026-02-06 17:14:42,214 - BenchmarkManager - INFO - dasatom (run 1/1) - Running benchmarks/qasm/uuf175-06.qasm
+2026-02-06 17:14:43,230 - Compiler.dasatom - INFO - STDOUT:
+DasAtom Compiler Interface
+Compiling circuit: benchmarks/qasm/uuf175-06.qasm
+Starting compilation process...
+Compilation successful.
+
+2026-02-06 17:14:43,230 - Compiler.dasatom - ERROR - STDERR:
+/u/halle/heiz/home_at/BachelorProject/compilers/DasAtom/DasAtom.py:373: UserWarning: The results for 'uuf175-06' may be overwritten in: ./results/circuits/dasatom. Consider using a different folder to preserve existing results.
+  warnings.warn(
+
+2026-02-06 17:14:43,230 - BenchmarkManager - INFO - dasatom (run 1/1) - Running benchmarks/qasm/uuf200-07.qasm
+2026-02-06 17:14:44,215 - Compiler.dasatom - INFO - STDOUT:
+DasAtom Compiler Interface
+Compiling circuit: benchmarks/qasm/uuf200-07.qasm
+Starting compilation process...
+Compilation successful.
+
+2026-02-06 17:14:44,215 - Compiler.dasatom - ERROR - STDERR:
+/u/halle/heiz/home_at/BachelorProject/compilers/DasAtom/DasAtom.py:373: UserWarning: The results for 'uuf200-07' may be overwritten in: ./results/circuits/dasatom. Consider using a different folder to preserve existing results.
+  warnings.warn(
+
+2026-02-06 17:14:44,215 - BenchmarkManager - INFO - dasatom (run 1/1) - Running benchmarks/qasm/uuf250-02.qasm
+2026-02-06 17:14:45,233 - Compiler.dasatom - INFO - STDOUT:
+DasAtom Compiler Interface
+Compiling circuit: benchmarks/qasm/uuf250-02.qasm
+Starting compilation process...
+Compilation successful.
+
+2026-02-06 17:14:45,233 - Compiler.dasatom - ERROR - STDERR:
+/u/halle/heiz/home_at/BachelorProject/compilers/DasAtom/DasAtom.py:373: UserWarning: The results for 'uuf250-02' may be overwritten in: ./results/circuits/dasatom. Consider using a different folder to preserve existing results.
+  warnings.warn(
+
+2026-02-06 17:14:45,233 - BenchmarkManager - INFO - dasatom (run 1/1) - Running benchmarks/qasm/uuf150-07.qasm
+2026-02-06 17:14:46,229 - Compiler.dasatom - INFO - STDOUT:
+DasAtom Compiler Interface
+Compiling circuit: benchmarks/qasm/uuf150-07.qasm
+Starting compilation process...
+Compilation successful.
+
+2026-02-06 17:14:46,229 - Compiler.dasatom - ERROR - STDERR:
+/u/halle/heiz/home_at/BachelorProject/compilers/DasAtom/DasAtom.py:373: UserWarning: The results for 'uuf150-07' may be overwritten in: ./results/circuits/dasatom. Consider using a different folder to preserve existing results.
+  warnings.warn(
+
+2026-02-06 17:14:46,229 - BenchmarkManager - INFO - dasatom (run 1/1) - Running benchmarks/qasm/uuf250-01.qasm
+2026-02-06 17:14:47,168 - Compiler.dasatom - INFO - STDOUT:
+DasAtom Compiler Interface
+Compiling circuit: benchmarks/qasm/uuf250-01.qasm
+Starting compilation process...
+Compilation successful.
+
+2026-02-06 17:14:47,168 - Compiler.dasatom - ERROR - STDERR:
+/u/halle/heiz/home_at/BachelorProject/compilers/DasAtom/DasAtom.py:373: UserWarning: The results for 'uuf250-01' may be overwritten in: ./results/circuits/dasatom. Consider using a different folder to preserve existing results.
+  warnings.warn(
+
+2026-02-06 17:14:47,168 - BenchmarkManager - INFO - dasatom (run 1/1) - Running benchmarks/qasm/uuf75-04.qasm
+2026-02-06 17:14:48,155 - Compiler.dasatom - INFO - STDOUT:
+DasAtom Compiler Interface
+Compiling circuit: benchmarks/qasm/uuf75-04.qasm
+Starting compilation process...
+Compilation successful.
+
+2026-02-06 17:14:48,155 - Compiler.dasatom - ERROR - STDERR:
+/u/halle/heiz/home_at/BachelorProject/compilers/DasAtom/DasAtom.py:373: UserWarning: The results for 'uuf75-04' may be overwritten in: ./results/circuits/dasatom. Consider using a different folder to preserve existing results.
+  warnings.warn(
+
+2026-02-06 17:14:48,155 - BenchmarkManager - INFO - dasatom (run 1/1) - Running benchmarks/qasm/uuf225-07.qasm
+2026-02-06 17:14:49,112 - Compiler.dasatom - INFO - STDOUT:
+DasAtom Compiler Interface
+Compiling circuit: benchmarks/qasm/uuf225-07.qasm
+Starting compilation process...
+Compilation successful.
+
+2026-02-06 17:14:49,113 - Compiler.dasatom - ERROR - STDERR:
+/u/halle/heiz/home_at/BachelorProject/compilers/DasAtom/DasAtom.py:373: UserWarning: The results for 'uuf225-07' may be overwritten in: ./results/circuits/dasatom. Consider using a different folder to preserve existing results.
+  warnings.warn(
+
+2026-02-06 17:14:49,113 - BenchmarkManager - INFO - dasatom (run 1/1) - Running benchmarks/qasm/uuf225-06.qasm
+2026-02-06 17:14:50,061 - Compiler.dasatom - INFO - STDOUT:
+DasAtom Compiler Interface
+Compiling circuit: benchmarks/qasm/uuf225-06.qasm
+Starting compilation process...
+Compilation successful.
+
+2026-02-06 17:14:50,061 - Compiler.dasatom - ERROR - STDERR:
+/u/halle/heiz/home_at/BachelorProject/compilers/DasAtom/DasAtom.py:373: UserWarning: The results for 'uuf225-06' may be overwritten in: ./results/circuits/dasatom. Consider using a different folder to preserve existing results.
+  warnings.warn(
+
+2026-02-06 17:14:50,061 - BenchmarkManager - INFO - dasatom (run 1/1) - Running benchmarks/qasm/uf20-03.qasm
+2026-02-06 17:14:50,993 - Compiler.dasatom - INFO - STDOUT:
+DasAtom Compiler Interface
+Compiling circuit: benchmarks/qasm/uf20-03.qasm
+Starting compilation process...
+Compilation successful.
+
+2026-02-06 17:14:50,993 - Compiler.dasatom - ERROR - STDERR:
+/u/halle/heiz/home_at/BachelorProject/compilers/DasAtom/DasAtom.py:373: UserWarning: The results for 'uf20-03' may be overwritten in: ./results/circuits/dasatom. Consider using a different folder to preserve existing results.
+  warnings.warn(
+
+2026-02-06 17:14:50,995 - BenchmarkManager - INFO - dasatom (run 1/1) - Running benchmarks/qasm/uuf50-07.qasm
+2026-02-06 17:14:51,902 - Compiler.dasatom - INFO - STDOUT:
+DasAtom Compiler Interface
+Compiling circuit: benchmarks/qasm/uuf50-07.qasm
+Starting compilation process...
+Compilation successful.
+
+2026-02-06 17:14:51,902 - Compiler.dasatom - ERROR - STDERR:
+/u/halle/heiz/home_at/BachelorProject/compilers/DasAtom/DasAtom.py:373: UserWarning: The results for 'uuf50-07' may be overwritten in: ./results/circuits/dasatom. Consider using a different folder to preserve existing results.
+  warnings.warn(
+
+2026-02-06 17:14:51,902 - BenchmarkManager - INFO - dasatom (run 1/1) - Running benchmarks/qasm/uuf150-09.qasm
+2026-02-06 17:14:52,916 - Compiler.dasatom - INFO - STDOUT:
+DasAtom Compiler Interface
+Compiling circuit: benchmarks/qasm/uuf150-09.qasm
+Starting compilation process...
+Compilation successful.
+
+2026-02-06 17:14:52,916 - Compiler.dasatom - ERROR - STDERR:
+/u/halle/heiz/home_at/BachelorProject/compilers/DasAtom/DasAtom.py:373: UserWarning: The results for 'uuf150-09' may be overwritten in: ./results/circuits/dasatom. Consider using a different folder to preserve existing results.
+  warnings.warn(
+
+2026-02-06 17:14:52,916 - BenchmarkManager - INFO - dasatom (run 1/1) - Running benchmarks/qasm/uuf100-09.qasm
+2026-02-06 17:14:53,888 - Compiler.dasatom - INFO - STDOUT:
+DasAtom Compiler Interface
+Compiling circuit: benchmarks/qasm/uuf100-09.qasm
+Starting compilation process...
+Compilation successful.
+
+2026-02-06 17:14:53,888 - Compiler.dasatom - ERROR - STDERR:
+/u/halle/heiz/home_at/BachelorProject/compilers/DasAtom/DasAtom.py:373: UserWarning: The results for 'uuf100-09' may be overwritten in: ./results/circuits/dasatom. Consider using a different folder to preserve existing results.
+  warnings.warn(
+
+2026-02-06 17:14:53,888 - BenchmarkManager - INFO - dasatom (run 1/1) - Running benchmarks/qasm/uf20-01.qasm
+2026-02-06 17:14:54,811 - Compiler.dasatom - INFO - STDOUT:
+DasAtom Compiler Interface
+Compiling circuit: benchmarks/qasm/uf20-01.qasm
+Starting compilation process...
+Compilation successful.
+
+2026-02-06 17:14:54,811 - Compiler.dasatom - ERROR - STDERR:
+/u/halle/heiz/home_at/BachelorProject/compilers/DasAtom/DasAtom.py:373: UserWarning: The results for 'uf20-01' may be overwritten in: ./results/circuits/dasatom. Consider using a different folder to preserve existing results.
+  warnings.warn(
+
+2026-02-06 17:14:54,811 - BenchmarkManager - INFO - dasatom (run 1/1) - Running benchmarks/qasm/uuf200-02.qasm

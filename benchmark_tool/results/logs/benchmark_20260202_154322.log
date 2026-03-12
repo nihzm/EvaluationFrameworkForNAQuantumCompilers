@@ -1,0 +1,167 @@
+2026-02-02 15:43:22,652 - BenchmarkManager - INFO - Initializing 1 compilers...
+2026-02-02 15:43:22,652 - BenchmarkManager - INFO - Starting benchmark execution ...
+2026-02-02 15:43:22,654 - BenchmarkManager - INFO - Found 100 benchmark circuits in ./benchmarks
+2026-02-02 15:43:22,654 - BenchmarkManager - INFO - Loaded 100 benchmark circuits
+2026-02-02 15:43:22,655 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uf20-07.qasm
+2026-02-02 15:43:24,424 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:43:24,424 - Compiler.parallax - ERROR - STDERR:
+[PARALLAX] compile start: circuitPath=benchmarks/qasm/uf20-07.qasm, resultDir=./results/circuits/parallax
+[PARALLAX] loaded circuit (length=26257 chars)
+[PARALLAX] no GRAPHINE result found, running GRAPHINE for uf20-07...
+[PARALLAX] EXCEPTION: 
+Traceback (most recent call last):
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/Parallax/run.py", line 54, in compile
+    res = graphine(circuitPath)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/compilers/Parallax/graphine.py", line 58, in graphine
+    assert num_op_qubits == row.count('q')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+2026-02-02 15:43:24,424 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf250-09.qasm
+2026-02-02 15:43:25,802 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:43:25,802 - Compiler.parallax - ERROR - STDERR:
+[PARALLAX] compile start: circuitPath=benchmarks/qasm/uuf250-09.qasm, resultDir=./results/circuits/parallax
+[PARALLAX] loaded circuit (length=504188 chars)
+[PARALLAX] no GRAPHINE result found, running GRAPHINE for uuf250-09...
+[PARALLAX] EXCEPTION: 
+Traceback (most recent call last):
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/Parallax/run.py", line 54, in compile
+    res = graphine(circuitPath)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/compilers/Parallax/graphine.py", line 58, in graphine
+    assert num_op_qubits == row.count('q')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+2026-02-02 15:43:25,802 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf150-010.qasm
+2026-02-02 15:43:27,113 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:43:27,113 - Compiler.parallax - ERROR - STDERR:
+[PARALLAX] compile start: circuitPath=benchmarks/qasm/uuf150-010.qasm, resultDir=./results/circuits/parallax
+[PARALLAX] loaded circuit (length=292420 chars)
+[PARALLAX] no GRAPHINE result found, running GRAPHINE for uuf150-010...
+[PARALLAX] EXCEPTION: 
+Traceback (most recent call last):
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/Parallax/run.py", line 54, in compile
+    res = graphine(circuitPath)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/compilers/Parallax/graphine.py", line 58, in graphine
+    assert num_op_qubits == row.count('q')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+2026-02-02 15:43:27,113 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uf20-04.qasm
+2026-02-02 15:43:28,405 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:43:28,405 - Compiler.parallax - ERROR - STDERR:
+[PARALLAX] compile start: circuitPath=benchmarks/qasm/uf20-04.qasm, resultDir=./results/circuits/parallax
+[PARALLAX] loaded circuit (length=27915 chars)
+[PARALLAX] no GRAPHINE result found, running GRAPHINE for uf20-04...
+[PARALLAX] EXCEPTION: 
+Traceback (most recent call last):
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/Parallax/run.py", line 54, in compile
+    res = graphine(circuitPath)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/compilers/Parallax/graphine.py", line 58, in graphine
+    assert num_op_qubits == row.count('q')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+2026-02-02 15:43:28,405 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf200-01.qasm
+2026-02-02 15:43:29,779 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:43:29,779 - Compiler.parallax - ERROR - STDERR:
+[PARALLAX] compile start: circuitPath=benchmarks/qasm/uuf200-01.qasm, resultDir=./results/circuits/parallax
+[PARALLAX] loaded circuit (length=400049 chars)
+[PARALLAX] no GRAPHINE result found, running GRAPHINE for uuf200-01...
+[PARALLAX] EXCEPTION: 
+Traceback (most recent call last):
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/Parallax/run.py", line 54, in compile
+    res = graphine(circuitPath)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/compilers/Parallax/graphine.py", line 58, in graphine
+    assert num_op_qubits == row.count('q')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+2026-02-02 15:43:29,779 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf250-08.qasm
+2026-02-02 15:43:31,141 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:43:31,141 - Compiler.parallax - ERROR - STDERR:
+[PARALLAX] compile start: circuitPath=benchmarks/qasm/uuf250-08.qasm, resultDir=./results/circuits/parallax
+[PARALLAX] loaded circuit (length=507362 chars)
+[PARALLAX] no GRAPHINE result found, running GRAPHINE for uuf250-08...
+[PARALLAX] EXCEPTION: 
+Traceback (most recent call last):
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/Parallax/run.py", line 54, in compile
+    res = graphine(circuitPath)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/compilers/Parallax/graphine.py", line 58, in graphine
+    assert num_op_qubits == row.count('q')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+2026-02-02 15:43:31,141 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf75-01.qasm
+2026-02-02 15:43:32,436 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:43:32,436 - Compiler.parallax - ERROR - STDERR:
+[PARALLAX] compile start: circuitPath=benchmarks/qasm/uuf75-01.qasm, resultDir=./results/circuits/parallax
+[PARALLAX] loaded circuit (length=133468 chars)
+[PARALLAX] no GRAPHINE result found, running GRAPHINE for uuf75-01...
+[PARALLAX] EXCEPTION: 
+Traceback (most recent call last):
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/Parallax/run.py", line 54, in compile
+    res = graphine(circuitPath)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/compilers/Parallax/graphine.py", line 58, in graphine
+    assert num_op_qubits == row.count('q')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+2026-02-02 15:43:32,436 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf100-07.qasm
+2026-02-02 15:43:33,786 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:43:33,786 - Compiler.parallax - ERROR - STDERR:
+[PARALLAX] compile start: circuitPath=benchmarks/qasm/uuf100-07.qasm, resultDir=./results/circuits/parallax
+[PARALLAX] loaded circuit (length=182376 chars)
+[PARALLAX] no GRAPHINE result found, running GRAPHINE for uuf100-07...
+[PARALLAX] EXCEPTION: 
+Traceback (most recent call last):
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/Parallax/run.py", line 54, in compile
+    res = graphine(circuitPath)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/compilers/Parallax/graphine.py", line 58, in graphine
+    assert num_op_qubits == row.count('q')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+2026-02-02 15:43:33,786 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf175-01.qasm
+2026-02-02 15:43:35,119 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 15:43:35,119 - Compiler.parallax - ERROR - STDERR:
+[PARALLAX] compile start: circuitPath=benchmarks/qasm/uuf175-01.qasm, resultDir=./results/circuits/parallax
+[PARALLAX] loaded circuit (length=347625 chars)
+[PARALLAX] no GRAPHINE result found, running GRAPHINE for uuf175-01...
+[PARALLAX] EXCEPTION: 
+Traceback (most recent call last):
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/Parallax/run.py", line 54, in compile
+    res = graphine(circuitPath)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/compilers/Parallax/graphine.py", line 58, in graphine
+    assert num_op_qubits == row.count('q')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+2026-02-02 15:43:35,119 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uf20-09.qasm

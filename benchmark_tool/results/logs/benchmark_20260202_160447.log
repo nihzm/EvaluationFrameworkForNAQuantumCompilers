@@ -1,0 +1,74 @@
+2026-02-02 16:04:47,994 - BenchmarkManager - INFO - Initializing 1 compilers...
+2026-02-02 16:04:47,994 - BenchmarkManager - INFO - Starting benchmark execution ...
+2026-02-02 16:04:47,996 - BenchmarkManager - INFO - Found 100 benchmark circuits in ./benchmarks
+2026-02-02 16:04:47,996 - BenchmarkManager - INFO - Loaded 100 benchmark circuits
+2026-02-02 16:04:47,996 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uf20-07.qasm
+2026-02-02 16:08:09,781 - Compiler.parallax - INFO - STDOUT:
+Compilation successful.
+
+2026-02-02 16:08:09,781 - Compiler.parallax - ERROR - STDERR:
+[PARALLAX] compile start: circuitPath=benchmarks/qasm/uf20-07.qasm, resultDir=./results/circuits/parallax
+[PARALLAX] loaded circuit (length=26257 chars)
+[PARALLAX] no GRAPHINE result found, running GRAPHINE for uf20-07...
+[PARALLAX] EXCEPTION: eig algorithm (geev) did not converge (only eigenvalues with order >= 2 have converged)
+Traceback (most recent call last):
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/Parallax/run.py", line 54, in compile
+    res = graphine(circuitPath)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/compilers/Parallax/graphine.py", line 382, in graphine
+    ops = circuit.count_ops()
+              ^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/compilers/Parallax/graphine.py", line 280, in compile
+    coupling_map=connections,
+  File "/u/halle/heiz/home_at/BachelorProject/compilers/Parallax/venv/lib/python3.11/site-packages/qiskit/compiler/transpiler.py", line 428, in transpile
+    out_circuits = pm.run(circuits, callback=callback)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/compilers/Parallax/venv/lib/python3.11/site-packages/qiskit/transpiler/passmanager.py", line 532, in run
+    return super().run(circuits, output_name, callback)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/compilers/Parallax/venv/lib/python3.11/site-packages/qiskit/transpiler/passmanager.py", line 551, in wrapper
+    return meth(*meth_args, **meth_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/compilers/Parallax/venv/lib/python3.11/site-packages/qiskit/transpiler/passmanager.py", line 291, in run
+    return super().run(
+           ^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/compilers/Parallax/venv/lib/python3.11/site-packages/qiskit/passmanager/passmanager.py", line 222, in run
+    out_program = _run_workflow(
+                  ^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/compilers/Parallax/venv/lib/python3.11/site-packages/qiskit/passmanager/passmanager.py", line 284, in _run_workflow
+    passmanager_ir, _ = flow_controller.execute(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/compilers/Parallax/venv/lib/python3.11/site-packages/qiskit/transpiler/runningpassmanager.py", line 161, in wrapper
+    return meth(*meth_args, **meth_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/compilers/Parallax/venv/lib/python3.11/site-packages/qiskit/passmanager/base_tasks.py", line 218, in execute
+    passmanager_ir, state = next_task.execute(
+                            ^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/compilers/Parallax/venv/lib/python3.11/site-packages/qiskit/passmanager/base_tasks.py", line 218, in execute
+    passmanager_ir, state = next_task.execute(
+                            ^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/compilers/Parallax/venv/lib/python3.11/site-packages/qiskit/transpiler/basepasses.py", line 195, in execute
+    new_dag, state = super().execute(
+                     ^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/compilers/Parallax/venv/lib/python3.11/site-packages/qiskit/passmanager/base_tasks.py", line 98, in execute
+    ret = self.run(passmanager_ir)
+          ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/compilers/Parallax/venv/lib/python3.11/site-packages/qiskit/transpiler/passes/optimization/consolidate_blocks.py", line 134, in run
+    or self.decomposer.num_basis_gates(unitary) < basis_count
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/compilers/Parallax/venv/lib/python3.11/site-packages/qiskit/quantum_info/synthesis/two_qubit_decompose.py", line 1417, in num_basis_gates
+    a, b, c = weyl_coordinates(unitary)[:]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/compilers/Parallax/venv/lib/python3.11/site-packages/qiskit/quantum_info/synthesis/weyl.py", line 66, in weyl_coordinates
+    D = la.eigvals(Up.T @ Up)
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/compilers/Parallax/venv/lib/python3.11/site-packages/scipy/linalg/_decomp.py", line 895, in eigvals
+    return eig(a, b=b, left=0, right=0, overwrite_a=overwrite_a,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/compilers/Parallax/venv/lib/python3.11/site-packages/scipy/linalg/_decomp.py", line 249, in eig
+    _check_info(info, 'eig algorithm (geev)',
+  File "/u/halle/heiz/home_at/BachelorProject/compilers/Parallax/venv/lib/python3.11/site-packages/scipy/linalg/_decomp.py", line 1371, in _check_info
+    raise LinAlgError(("%s " + positive) % (driver, info,))
+numpy.linalg.LinAlgError: eig algorithm (geev) did not converge (only eigenvalues with order >= 2 have converged)
+
+2026-02-02 16:08:09,782 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf250-09.qasm

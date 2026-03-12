@@ -1,0 +1,246 @@
+2026-01-27 11:07:41,277 - BenchmarkManager - INFO - Initializing 1 compilers...
+2026-01-27 11:07:41,277 - BenchmarkManager - INFO - Starting benchmark execution ...
+2026-01-27 11:07:41,296 - BenchmarkManager - INFO - Found 100 benchmark circuits in ./benchmarks
+2026-01-27 11:07:41,296 - BenchmarkManager - INFO - Loaded 100 benchmark circuits
+2026-01-27 11:07:41,296 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uf20-07.qasm
+2026-01-27 11:07:41,301 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uf20-07_trimmed.qasm
+2026-01-27 11:07:42,303 - Compiler.zac - ERROR - STDERR:
+Traceback (most recent call last):
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 132, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 92, in main
+    error, success = compile(args.circuit, args.result_dir, args.arch_json, args.zac)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 117, in compile
+    navizResult = compiler.compile(circ)
+                  ^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Operation type not supported: measure with 0 controls and 1 targets
+
+2026-01-27 11:07:42,305 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uf20-07_trimmed.qasm
+2026-01-27 11:07:42,306 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf250-09.qasm
+2026-01-27 11:07:42,320 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf250-09_trimmed.qasm
+2026-01-27 11:07:43,287 - Compiler.zac - ERROR - STDERR:
+Traceback (most recent call last):
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 132, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 92, in main
+    error, success = compile(args.circuit, args.result_dir, args.arch_json, args.zac)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 117, in compile
+    navizResult = compiler.compile(circ)
+                  ^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Operation type not supported: measure with 0 controls and 1 targets
+
+2026-01-27 11:07:43,289 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf250-09_trimmed.qasm
+2026-01-27 11:07:43,289 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf150-010.qasm
+2026-01-27 11:07:43,302 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf150-010_trimmed.qasm
+2026-01-27 11:07:44,198 - Compiler.zac - ERROR - STDERR:
+Traceback (most recent call last):
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 132, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 92, in main
+    error, success = compile(args.circuit, args.result_dir, args.arch_json, args.zac)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 117, in compile
+    navizResult = compiler.compile(circ)
+                  ^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Operation type not supported: measure with 0 controls and 1 targets
+
+2026-01-27 11:07:44,199 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf150-010_trimmed.qasm
+2026-01-27 11:07:44,200 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uf20-04.qasm
+2026-01-27 11:07:44,204 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uf20-04_trimmed.qasm
+2026-01-27 11:07:44,919 - Compiler.zac - ERROR - STDERR:
+Traceback (most recent call last):
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 132, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 92, in main
+    error, success = compile(args.circuit, args.result_dir, args.arch_json, args.zac)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 117, in compile
+    navizResult = compiler.compile(circ)
+                  ^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Operation type not supported: measure with 0 controls and 1 targets
+
+2026-01-27 11:07:44,920 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uf20-04_trimmed.qasm
+2026-01-27 11:07:44,921 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf200-01.qasm
+2026-01-27 11:07:44,931 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf200-01_trimmed.qasm
+2026-01-27 11:07:45,876 - Compiler.zac - ERROR - STDERR:
+Traceback (most recent call last):
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 132, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 92, in main
+    error, success = compile(args.circuit, args.result_dir, args.arch_json, args.zac)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 117, in compile
+    navizResult = compiler.compile(circ)
+                  ^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Operation type not supported: measure with 0 controls and 1 targets
+
+2026-01-27 11:07:45,878 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf200-01_trimmed.qasm
+2026-01-27 11:07:45,878 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf250-08.qasm
+2026-01-27 11:07:45,892 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf250-08_trimmed.qasm
+2026-01-27 11:07:46,895 - Compiler.zac - ERROR - STDERR:
+Traceback (most recent call last):
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 132, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 92, in main
+    error, success = compile(args.circuit, args.result_dir, args.arch_json, args.zac)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 117, in compile
+    navizResult = compiler.compile(circ)
+                  ^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Operation type not supported: measure with 0 controls and 1 targets
+
+2026-01-27 11:07:46,896 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf250-08_trimmed.qasm
+2026-01-27 11:07:46,897 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf75-01.qasm
+2026-01-27 11:07:46,905 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf75-01_trimmed.qasm
+2026-01-27 11:07:47,663 - Compiler.zac - ERROR - STDERR:
+Traceback (most recent call last):
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 132, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 92, in main
+    error, success = compile(args.circuit, args.result_dir, args.arch_json, args.zac)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 117, in compile
+    navizResult = compiler.compile(circ)
+                  ^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Operation type not supported: measure with 0 controls and 1 targets
+
+2026-01-27 11:07:47,664 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf75-01_trimmed.qasm
+2026-01-27 11:07:47,665 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf100-07.qasm
+2026-01-27 11:07:47,676 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf100-07_trimmed.qasm
+2026-01-27 11:07:48,464 - Compiler.zac - ERROR - STDERR:
+Traceback (most recent call last):
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 132, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 92, in main
+    error, success = compile(args.circuit, args.result_dir, args.arch_json, args.zac)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 117, in compile
+    navizResult = compiler.compile(circ)
+                  ^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Operation type not supported: measure with 0 controls and 1 targets
+
+2026-01-27 11:07:48,465 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf100-07_trimmed.qasm
+2026-01-27 11:07:48,466 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf175-01.qasm
+2026-01-27 11:07:48,476 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf175-01_trimmed.qasm
+2026-01-27 11:07:49,362 - Compiler.zac - ERROR - STDERR:
+Traceback (most recent call last):
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 132, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 92, in main
+    error, success = compile(args.circuit, args.result_dir, args.arch_json, args.zac)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 117, in compile
+    navizResult = compiler.compile(circ)
+                  ^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Operation type not supported: measure with 0 controls and 1 targets
+
+2026-01-27 11:07:49,363 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf175-01_trimmed.qasm
+2026-01-27 11:07:49,364 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uf20-09.qasm
+2026-01-27 11:07:49,367 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uf20-09_trimmed.qasm
+2026-01-27 11:07:50,054 - Compiler.zac - ERROR - STDERR:
+Traceback (most recent call last):
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 132, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 92, in main
+    error, success = compile(args.circuit, args.result_dir, args.arch_json, args.zac)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 117, in compile
+    navizResult = compiler.compile(circ)
+                  ^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Operation type not supported: measure with 0 controls and 1 targets
+
+2026-01-27 11:07:50,055 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uf20-09_trimmed.qasm
+2026-01-27 11:07:50,056 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf150-05.qasm
+2026-01-27 11:07:50,066 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf150-05_trimmed.qasm
+2026-01-27 11:07:50,860 - Compiler.zac - ERROR - STDERR:
+Traceback (most recent call last):
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 132, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 92, in main
+    error, success = compile(args.circuit, args.result_dir, args.arch_json, args.zac)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 117, in compile
+    navizResult = compiler.compile(circ)
+                  ^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Operation type not supported: measure with 0 controls and 1 targets
+
+2026-01-27 11:07:50,861 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf150-05_trimmed.qasm
+2026-01-27 11:07:50,862 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf100-010.qasm
+2026-01-27 11:07:50,868 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf100-010_trimmed.qasm
+2026-01-27 11:07:51,660 - Compiler.zac - ERROR - STDERR:
+Traceback (most recent call last):
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 132, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 92, in main
+    error, success = compile(args.circuit, args.result_dir, args.arch_json, args.zac)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 117, in compile
+    navizResult = compiler.compile(circ)
+                  ^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Operation type not supported: measure with 0 controls and 1 targets
+
+2026-01-27 11:07:51,661 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf100-010_trimmed.qasm
+2026-01-27 11:07:51,662 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uf20-010.qasm
+2026-01-27 11:07:51,665 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uf20-010_trimmed.qasm
+2026-01-27 11:07:52,314 - Compiler.zac - ERROR - STDERR:
+Traceback (most recent call last):
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 132, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 92, in main
+    error, success = compile(args.circuit, args.result_dir, args.arch_json, args.zac)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 117, in compile
+    navizResult = compiler.compile(circ)
+                  ^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Operation type not supported: measure with 0 controls and 1 targets
+
+2026-01-27 11:07:52,316 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uf20-010_trimmed.qasm
+2026-01-27 11:07:52,317 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf150-08.qasm
+2026-01-27 11:07:52,328 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf150-08_trimmed.qasm
+2026-01-27 11:07:53,132 - Compiler.zac - ERROR - STDERR:
+Traceback (most recent call last):
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 132, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 92, in main
+    error, success = compile(args.circuit, args.result_dir, args.arch_json, args.zac)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 117, in compile
+    navizResult = compiler.compile(circ)
+                  ^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Operation type not supported: measure with 0 controls and 1 targets
+
+2026-01-27 11:07:53,134 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf150-08_trimmed.qasm
+2026-01-27 11:07:53,134 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf50-06.qasm
+2026-01-27 11:07:53,140 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf50-06_trimmed.qasm
+2026-01-27 11:07:53,908 - Compiler.zac - ERROR - STDERR:
+Traceback (most recent call last):
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 132, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 92, in main
+    error, success = compile(args.circuit, args.result_dir, args.arch_json, args.zac)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/halle/heiz/home_at/BachelorProject/benchmark_tool/../compilers/QMap/run.py", line 117, in compile
+    navizResult = compiler.compile(circ)
+                  ^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Operation type not supported: measure with 0 controls and 1 targets
+
+2026-01-27 11:07:53,910 - Compiler.zac - INFO - Deleted trimmed circuit file: benchmarks/qasm/uuf50-06_trimmed.qasm
+2026-01-27 11:07:53,911 - BenchmarkManager - INFO - zac (run 1/1) - Running benchmarks/qasm/uuf225-04.qasm
+2026-01-27 11:07:53,924 - Compiler.zac - INFO - Trimmed circuit saved to benchmarks/qasm/uuf225-04_trimmed.qasm

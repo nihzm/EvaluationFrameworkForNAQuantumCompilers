@@ -1,0 +1,11 @@
+2026-01-27 10:55:06,863 - BenchmarkManager - INFO - Initializing 1 compilers...
+2026-01-27 10:55:06,863 - BenchmarkManager - INFO - Starting benchmark execution ...
+2026-01-27 10:55:06,865 - BenchmarkManager - INFO - Found 100 benchmark circuits in ./benchmarks
+2026-01-27 10:55:06,865 - BenchmarkManager - INFO - Loaded 100 benchmark circuits
+2026-01-27 10:55:06,866 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uf20-07.qasm
+2026-01-27 10:55:07,657 - BenchmarkManager - ERROR - Benchmark failed: Command '['../compilers/QMap/venv/bin/python', '../compilers/QMap/run.py', '--circuit', 'benchmarks/qasm/uf20-07.qasm', '--result-dir', './results/circuits/nalac']' returned non-zero exit status 1.
+2026-01-27 10:55:07,657 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf250-09.qasm
+2026-01-27 10:55:08,550 - BenchmarkManager - ERROR - Benchmark failed: Command '['../compilers/QMap/venv/bin/python', '../compilers/QMap/run.py', '--circuit', 'benchmarks/qasm/uuf250-09.qasm', '--result-dir', './results/circuits/nalac']' returned non-zero exit status 1.
+2026-01-27 10:55:08,550 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uuf150-010.qasm
+2026-01-27 10:55:09,316 - BenchmarkManager - ERROR - Benchmark failed: Command '['../compilers/QMap/venv/bin/python', '../compilers/QMap/run.py', '--circuit', 'benchmarks/qasm/uuf150-010.qasm', '--result-dir', './results/circuits/nalac']' returned non-zero exit status 1.
+2026-01-27 10:55:09,317 - BenchmarkManager - INFO - nalac (run 1/1) - Running benchmarks/qasm/uf20-04.qasm
