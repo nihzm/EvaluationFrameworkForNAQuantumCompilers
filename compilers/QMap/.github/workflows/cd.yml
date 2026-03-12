@@ -1,0 +1,60 @@
+name: CD 🚀
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+
+permissions:
+  attestations: write
+  contents: read
+  id-token: write
+
+jobs:
+  build-sdist:
+    name: 🐍 Packaging
+    uses: munich-quantum-toolkit/workflows/.github/workflows/reusable-python-packaging-sdist.yml@99170045e26c2564e9573174b573310e211fca72 # v1.17.10
+
+  # Builds wheels on all supported platforms using cibuildwheel.
+  # The wheels are uploaded as GitHub artifacts `dev-cibw-*` or `cibw-*`, depending on whether
+  # the workflow is triggered from a PR or a release, respectively.
+  build-wheel:
+    name: 🐍 Packaging
+    strategy:
+      fail-fast: false
+      matrix:
+        runs-on:
+          [
+            ubuntu-24.04,
+            ubuntu-24.04-arm,
+            macos-15-intel,
+            macos-14,
+            windows-2022,
+            windows-11-arm,
+          ]
+    uses: munich-quantum-toolkit/workflows/.github/workflows/reusable-python-packaging-wheel-cibuildwheel.yml@99170045e26c2564e9573174b573310e211fca72 # v1.17.10
+    with:
+      runs-on: ${{ matrix.runs-on }}
+      setup-z3: true
+      # 4.13.0 has incorrectly tagged manylinux wheels
+      z3-version: 4.12.6
+
+  # Downloads the previously generated artifacts and deploys to PyPI on published releases.
+  deploy:
+    if: github.event_name == 'release' && github.event.action == 'published'
+    name: 🚀 Deploy to PyPI
+    runs-on: ubuntu-latest
+    environment:
+      name: pypi
+      url: https://pypi.org/p/mqt.qmap
+    needs: [build-sdist, build-wheel]
+    steps:
+      - uses: actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131 # v7.0.0
+        with:
+          pattern: cibw-*
+          path: dist
+          merge-multiple: true
+      - name: Generate artifact attestation for sdist and wheel(s)
+        uses: actions/attest-build-provenance@00014ed6ed5efc5b1ab7f7f34a39eb55d41aa4f8 # v3.1.0
+        with:
+          subject-path: dist/*
+      - uses: pypa/gh-action-pypi-publish@ed0c53931b1dc9bd32cbe73a98c7f6766f8a527e # v1.13.0

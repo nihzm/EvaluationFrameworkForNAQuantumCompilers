@@ -1,0 +1,10 @@
+# Core quantum tooling
+mqt.qmap>=3.5
+mqt.core>=1.1
+
+# OpenQASM parsing
+qiskit>=0.45
+
+# Scientific stack (pulled transitively, but pinned for safety)
+numpy>=1.23
+networkx>=2.8
