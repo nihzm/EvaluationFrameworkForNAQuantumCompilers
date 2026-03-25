@@ -1,0 +1,40 @@
+{
+  "architecture": {
+    "array_width": 16,
+    "array_height": 16,
+    "aod_columns": 8,
+    "aod_rows": 8
+  },
+  "hardware_spec": {
+    "rydberg_interaction_range": 6,
+    "blockade_radius_factor": 2.5,
+    "aod_site_separation": 2,
+    "slm_site_separation": 2
+  },
+  "duration_spec": {
+    "rydberg_gate_duration": 0.36,
+    "atom_transfer_duration": 15,
+    "single_qubit_gate_duration": 0.625,
+    "shuttling_speed": 0.55
+  },
+  "fidelity_spec": {
+    "rydberg_gate_fidelity": 0.995,
+    "single_qubit_gate_fidelity": 0.9997,
+    "atom_transfer_fidelity": 0.999,
+    "shuttling_fidelity": 1.0,
+    "T1": 100000000,
+    "T2": 1500000
+  },
+  "tolerance_spec": {
+    "trap_transfer_proximity": 1e-05,
+    "aod_beam_proximity": 1e-03
+  },
+  "strategy_spec": {
+    "routing_strategy": "maximalis",
+    "r2i": true,
+    "dependency": true,
+    "use_window": true,
+    "full_code": false,
+    "trivial_layout": true
+  }
+}

@@ -1,7 +1,0 @@
-2026-02-02 15:36:37,706 - BenchmarkManager - INFO - Initializing 1 compilers...
-2026-02-02 15:36:37,706 - BenchmarkManager - INFO - Starting benchmark execution ...
-2026-02-02 15:36:37,707 - BenchmarkManager - INFO - Found 100 benchmark circuits in ./benchmarks
-2026-02-02 15:36:37,707 - BenchmarkManager - INFO - Loaded 100 benchmark circuits
-2026-02-02 15:36:37,707 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uf20-07.qasm
-2026-02-02 15:36:39,403 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf250-09.qasm
-2026-02-02 15:36:40,770 - BenchmarkManager - INFO - parallax (run 1/1) - Running benchmarks/qasm/uuf150-010.qasm

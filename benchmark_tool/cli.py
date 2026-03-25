@@ -50,26 +50,27 @@ def parseArguments():
         help="Compilers to benchmark",
     )
 
-    parser.add_argument(
-        "--arch",
-        type=jsonFilePath,
-        default=Path("architectures/default_arch.json"),
-        help="Path to architecture JSON file",
-    )
-
     # Argument: Which benchmark sets to run (Default: all)
     parser.add_argument(
-        "--benchmark-sets",
-        nargs="+",
-        default=["all"],
-        help="Benchmark sets to run",
+        "--benchmark-set",
+        type=Path,
+        default=Path("benchmarks/qasm/qft_opt0_indep"),
+        help="Path to benchmark set directory",
     )
 
+    # Argument: Its a .cnf benchmark set (Default: False)
+    parser.add_argument(
+        "--cnf",
+        action="store_true",
+        help="Indicate that the benchmark set is in .cnf format",
+    )
+    
     # Argument: Output directory for results (Default: ./results)
     parser.add_argument(
         "--output",
         "-o",
-        default="./results",
+        type=Path,
+        default=Path("./results"),
         help="Output directory for results",
     )
 
