@@ -1,8 +1,7 @@
 import argparse
 import os
 import pickle
-from typing import Dict
-from graphine import graphine
+from typing import Dict, List
 from na_arch import NA_Architecture
 import time
 import sys
@@ -21,12 +20,11 @@ def main():
     parser.add_argument('--radius', type=float, help='Rydberg radius (in units of grid spacing)')
     args = parser.parse_args()
 
-    error, success = compile(args.circuit, args.result_dir, args.array_width, args.array_height, args.aod_columns, args.aod_rows, args.radius)
-    if success:
+    result = compile(args.circuit, args.result_dir, args.array_width, args.array_height, args.aod_columns, args.aod_rows, args.radius)
+    if result['success']:
         print("Compilation successful.")
     else:
-        print(f"Compilation failed with error: {error}")
-
+        print(f"Compilation failed with error: {result['error']}")
 
 def compile(circuitPath: str, resultDir: str, array_width: int, array_height: int, aod_columns: int, aod_rows: int, radius: float) -> Dict:
 
@@ -37,6 +35,9 @@ def compile(circuitPath: str, resultDir: str, array_width: int, array_height: in
             return (f"Circuit file not found: {circuitPath}", False)
         with open(circuitPath, 'r') as f:
             circuit = f.read()
+
+        # Normalize to a QASM2 form that Parallax internals can parse reliably.
+        circuit = _normalizeQasmForParallax(circuit)
 
         # Parse QASM to extract qubit count and gate connectivity
         numQubits, connectCount = _parseQasmConnectivity(circuit)
@@ -58,20 +59,7 @@ def compile(circuitPath: str, resultDir: str, array_width: int, array_height: in
         """
         na = NA_Architecture([aod_rows, aod_columns], [array_width, array_height], mappedPoints, connectCount, adjustedRadius, circuit)
 
-        """
-        na.compile_circuit will return the following outputs:
-        0 - list of layers of gates 
-        1 - number of moves made
-        2 - sequential AOD distance moved (used for time for AOD movement; does not include distance from swap traps(see below))
-        3 - CZ gate count, 
-        4 - U3 gate count 
-        5 - number of swap traps = Number of times where qubits needed to change from SLM to AOD to execute a CZ
-        6 - distance traveled during swap traps
-        7 - list of CZ gates that needed swap traps
-        """
-        start_c = time.time()
-        _, _, _, _, _, _, _, _, fullInstructionList = na.compile_circuit() #TODO make pretiier, only return instruction list
-        end_c = time.time()
+        fullInstructionList = na.compile_circuit()
 
         base = os.path.splitext(os.path.basename(circuitPath))[0]
         resultPath = os.path.join(resultDir, f"{base}_result.txt")
@@ -83,7 +71,6 @@ def compile(circuitPath: str, resultDir: str, array_width: int, array_height: in
         return {'error': None, 'success': True}
 
     except Exception as e:
-        traceback.print_exc(file=sys.stderr)
         return {'error': str(e), 'success': False} 
     
 
@@ -140,27 +127,99 @@ def _parseQasmConnectivity(qasmStr: str):
     Returns (numQubits, connectCount) where connectCount is a dict {(q1,q2): count}.
     """
     import re
-    numQubits = None
+    numQubits = 0
     connectCount = {}
 
+    # Track declared quantum registers and build global qubit ids.
+    # Example: qreg q[5]; qreg anc[2]; => offsets {"q":0, "anc":5}
+    regOffsets = {}
+
     for row in qasmStr.splitlines():
-        if 'qreg' in row:
-            numQubits = int(row.split('[')[1].split(']')[0])
+        stripped = row.strip()
+        if not stripped or stripped.startswith('//'):
+            continue
+
+        qregMatch = re.match(r"^qreg\s+([A-Za-z_][A-Za-z0-9_]*)\[(\d+)\]\s*;", stripped)
+        if qregMatch:
+            regName = qregMatch.group(1)
+            regSize = int(qregMatch.group(2))
+            if regName not in regOffsets:
+                regOffsets[regName] = numQubits
+                numQubits += regSize
+            continue
+
+        qasm3QubitMatch = re.match(r"^qubit\s*\[(\d+)\]\s*([A-Za-z_][A-Za-z0-9_]*)\s*;", stripped)
+        if qasm3QubitMatch:
+            regSize = int(qasm3QubitMatch.group(1))
+            regName = qasm3QubitMatch.group(2)
+            if regName not in regOffsets:
+                regOffsets[regName] = numQubits
+                numQubits += regSize
+            continue
+
         if 'measure' in row or 'barrier' in row:
             continue
 
-        qubitMatches = re.findall(r"q\[(\d+)\]", row)
-        if len(qubitMatches) > 1:
-            qubits = sorted(int(m) for m in qubitMatches)
+        # Find all register[index] uses and keep only known quantum registers.
+        qubitMatches = re.findall(r"([A-Za-z_][A-Za-z0-9_]*)\[(\d+)\]", row)
+        gateQubits: List[int] = []
+        for regName, idxStr in qubitMatches:
+            if regName not in regOffsets:
+                continue
+            gateQubits.append(regOffsets[regName] + int(idxStr))
+
+        if len(gateQubits) > 1:
+            qubits = sorted(gateQubits)
             for i1 in range(len(qubits) - 1):
                 for i2 in range(i1 + 1, len(qubits)):
                     pair = (qubits[i1], qubits[i2])
                     connectCount[pair] = connectCount.get(pair, 0) + 1
 
-    if numQubits is None:
+    if numQubits == 0:
         raise ValueError("Could not determine number of qubits from QASM file")
 
     return numQubits, connectCount
+
+
+def _normalizeQasmForParallax(qasmStr: str) -> str:
+    """
+    Normalize OpenQASM input for Parallax internals:
+    - Accept OpenQASM 2 and 3
+    - Remove non-unitary operations (e.g., measure/barrier)
+    - Transpile to a compact Parallax-friendly basis (u3, cz)
+    - Emit OpenQASM 2
+    """
+    import re
+
+    try:
+        from qiskit import QuantumCircuit, qasm2, qasm3, transpile
+
+        # Parse either OpenQASM 2 or OpenQASM 3.
+        if re.search(r"OPENQASM\s+3", qasmStr, flags=re.IGNORECASE):
+            qc = qasm3.loads(qasmStr)
+        else:
+            qc = qasm2.loads(qasmStr)
+
+        # Remove final measurements (and associated classical bits, where possible).
+        qc = qc.remove_final_measurements(inplace=False)
+
+        # Drop non-unitary / classically driven operations that Parallax does not execute.
+        clean_qc = QuantumCircuit(*qc.qregs, name=qc.name)
+        clean_qc.global_phase = qc.global_phase
+        for inst, qargs, cargs in qc.data:
+            if inst.name in {"measure", "barrier", "reset", "delay"}:
+                continue
+            if cargs:
+                continue
+            clean_qc.append(inst, qargs, [])
+
+        # Normalize gate set for downstream Parallax parsing/execution model.
+        norm_qc = transpile(clean_qc, basis_gates=["u3", "cz"], optimization_level=2)
+        qasm2_str = qasm2.dumps(norm_qc)
+
+        return qasm2_str
+    except Exception as e:
+        raise ValueError(f"Failed to normalize QASM for Parallax: {e}") from e
 
 
 def _placeOnSquareGrid(numQubits: int, width: int, height: int):

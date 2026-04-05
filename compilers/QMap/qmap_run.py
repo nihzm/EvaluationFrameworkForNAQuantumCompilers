@@ -36,7 +36,7 @@ except Exception as e:
     ) from e
 
 try:
-    from qiskit import QuantumCircuit
+    from qiskit import QuantumCircuit, transpile
 except Exception as e:
     raise RuntimeError("Could not import qiskit. Please 'pip install qiskit'.") from e
 
@@ -86,9 +86,12 @@ def load_qasm_circuit(qasm_path: Path):
 
     Strategy:
       1) Use Qiskit to parse OpenQASM.
-      2) Convert to MQT core circuit via mqt.core.load.
+            2) Transpile to the gate set {u3, cz}.
+            3) Convert to MQT core circuit via mqt.core.load.
     """
     qc = QuantumCircuit.from_qasm_file(str(qasm_path))
+    qc = qc.remove_final_measurements(inplace=False)
+    qc = transpile(qc, basis_gates=["u3", "cz"], optimization_level=2)
     return mqt_load(qc)
 
 
@@ -99,7 +102,7 @@ def write_text(path: Path, content: str) -> None:
 
 def main() -> int:
     ap = argparse.ArgumentParser(description="Run QMAP NALAC/ZAC-style zoned NA compilers on a .qasm file.")
-    ap.add_argument("--bench-dir", type=Path, default=Path("WeaverBenchmarks"), help="Directory containing .qasm files.")
+    ap.add_argument("--bench-dir", type=Path, default=Path("examples"), help="Directory containing .qasm files.")
     ap.add_argument("--out-dir", type=Path, default=Path("qmap_results"), help="Output directory.")
     ap.add_argument("--arch-json", type=Path, default=None, help="Architecture JSON file. If omitted, uses a default.")
     ap.add_argument("--export-namachine", action="store_true", help="Export architecture.namachine for NAViz.")

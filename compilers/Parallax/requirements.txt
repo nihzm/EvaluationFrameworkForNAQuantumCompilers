@@ -3,5 +3,6 @@ scipy==1.11.3
 matplotlib==3.8.1
 networkx==3.2.1
 qiskit==0.45.0
+qiskit-qasm3-import==0.4.2
 qutip
 wheel

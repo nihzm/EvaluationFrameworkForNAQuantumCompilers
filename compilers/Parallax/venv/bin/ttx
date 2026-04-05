@@ -1,4 +1,4 @@
-#!/u/halle/heiz/home_at/BachelorProject/Parallax/venv/bin/python
+#!/u/halle/heiz/home_at/BachelorProject/compilers/Parallax/venv/bin/python3.11
 # -*- coding: utf-8 -*-
 import re
 import sys

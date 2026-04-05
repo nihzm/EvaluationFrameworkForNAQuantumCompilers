@@ -156,7 +156,6 @@ class NA_Architecture:
         #O((number_of_gates*num_qubits^2) + (max(AOD_ROWS,AOD_COLS)*num_qubits^3)) 
         #Selection of qubits to be placed in the AOD
         self.mobile_qubits = select_mobile_qubits(qubit_topology, connect_count, radius, qasm_str, min(self.grid_dims[0],self.grid_dims[1]))
-        print(" Mobile Qubits selected: ", self.mobile_qubits)
         
         #Use for AOD testing: This is used to test impact of different AOD row/col counts (last argument changes AOD count)
         #self.mobile_qubits = select_mobile_qubits(qubit_topology, connect_count, radius, qasm_str, min(self.grid_dims[0],self.grid_dims[1]),self.grid_dims[0])
@@ -506,7 +505,7 @@ class NA_Architecture:
                 full_instruction_list.append((
                     layer_id,
                     "gate_1q",
-                    (q,)
+                    q
                 ))
 
             elif len(gate) == 2:
@@ -622,20 +621,18 @@ class NA_Architecture:
         full_instruction_list.append((
             gate_index,
             "move",
-            (q_moved,),
+            q_moved,
             tuple(from_pos),
             (float(to_pos[0]), float(to_pos[1])),
             peer_q,
             float(dist)
         ))
 
-    def _log_load_aod(self, full_instruction_list, gate, gate_index, dist, reason):
+    def _log_load_aod(self, full_instruction_list, loaded_q, gate_index):
         full_instruction_list.append((
             gate_index,
             "load_aod",
-            tuple(gate),
-            float(dist),
-            reason
+            loaded_q
         ))
 
                 
@@ -724,7 +721,8 @@ class NA_Architecture:
                         swap_trap_count += 1
                         self.trap_dist += dist
 
-                        self._log_load_aod(full_instruction_list, gate, layer_i, dist, "both_static_out_of_range")  # Mine
+                        # Deterministically choose q1 as the qubit to be loaded when both are static.
+                        self._log_load_aod(full_instruction_list, q1, layer_i)  # Mine
 
                         swap_trap_gates.append(i)
                         curr_layer.pop(i)
@@ -755,7 +753,7 @@ class NA_Architecture:
                                         swap_trap_count += 1
                                         self.trap_dist += dist
 
-                                        self._log_load_aod(full_instruction_list, gate, layer_i, dist, f"recursion_failure, tried to move qubit {q1} to ({x2},{y2})")  # Mine
+                                        self._log_load_aod(full_instruction_list, q1, layer_i)  # Mine
 
                                         swap_trap_gates.append(i)
                                         curr_layer.pop(i)
@@ -779,7 +777,7 @@ class NA_Architecture:
                                             swap_trap_count += 1
                                             self.trap_dist += dist
 
-                                            self._log_load_aod(full_instruction_list, gate, layer_i, dist, "out_of_bounds_after_move_attempt")  # Mine
+                                            self._log_load_aod(full_instruction_list, q1, layer_i)  # Mine
 
                                             swap_trap_gates.append(i)
                                             curr_layer.pop(i)
@@ -802,7 +800,7 @@ class NA_Architecture:
                                         swap_trap_count += 1
                                         self.trap_dist += dist
 
-                                        self._log_load_aod(full_instruction_list, gate, layer_i, dist, f"recursion_failure, tried to move qubit {q2} to ({x2},{y2})")  # Mine
+                                        self._log_load_aod(full_instruction_list, q2, layer_i)  # Mine
 
                                         swap_trap_gates.append(i)
                                         curr_layer.pop(i)                                        
@@ -825,7 +823,7 @@ class NA_Architecture:
                                             swap_trap_count += 1
                                             self.trap_dist += dist 
 
-                                            self._log_load_aod(full_instruction_list, gate, layer_i, dist, "out_of_bounds_after_move_attempt")  # Mine
+                                            self._log_load_aod(full_instruction_list, q2, layer_i)  # Mine
 
                                             swap_trap_gates.append(i)
                                             curr_layer.pop(i)
@@ -885,5 +883,6 @@ class NA_Architecture:
                 else:
                     cz_count += 1
         
-        return all_layers, move_count, total_max_moved_dist, cz_count+swap_trap_count, u_count, swap_trap_count, self.trap_dist, swap_trap_gates, full_instruction_list
+        # (Deleted from output: all_layers, move_count, total_max_moved_dist, cz_count+swap_trap_count, u_count, swap_trap_count, self.trap_dist, swap_trap_gates)
+        return full_instruction_list
         

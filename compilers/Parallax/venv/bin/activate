@@ -35,7 +35,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/u/halle/heiz/home_at/BachelorProject/Parallax/venv"
+VIRTUAL_ENV="/u/halle/heiz/home_at/BachelorProject/compilers/Parallax/venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

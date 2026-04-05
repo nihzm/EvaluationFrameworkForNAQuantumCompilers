@@ -128,7 +128,7 @@ class Enola:
         runtime_analysis["placement"] = runtime_analysis["placement"] + time_placement
         runtime_analysis["total"] = time.time()- t_s
         print("[INFO] Enola: Time for routing: {}s".format(runtime_analysis["routing"]))
-        print("[INFO] Enola: Toal Time: {}s".format(runtime_analysis["total"]))
+        print("[INFO] Enola: Total Time: {}s".format(runtime_analysis["total"]))
         if save_file:
             base_dir = Path(self.dir) if self.dir else Path("./results")
             code_dir = base_dir / "code"
