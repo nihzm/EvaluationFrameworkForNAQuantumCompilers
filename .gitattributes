@@ -1,0 +1,2 @@
+compilers/Weaver/venv/** filter=lfs diff=lfs merge=lfs -text
+compilers/Weaver/venv/**/.gitignore !filter !diff !merge text

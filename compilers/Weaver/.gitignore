@@ -1,0 +1,6 @@
+pdm.lock
+.venv/
+_fpqa_max3sat/
+.vscode/
+**/__pycache__/*
+evaluation/utils/__pycache__/
