@@ -1,0 +1,35 @@
+2026-03-23 11:15:54,103 - BenchmarkManager - INFO - Initializing 1 compilers...
+2026-03-23 11:15:54,103 - BenchmarkManager - INFO - Output directory for weaver: results/circuits/weaver
+2026-03-23 11:15:54,104 - BenchmarkManager - INFO - Starting benchmark execution ...
+2026-03-23 11:15:54,106 - BenchmarkManager - INFO - Found 5 CNF benchmark circuits in '/u/halle/heiz/home_at/BachelorProject/benchmarks/uf_fix20_10-100'
+2026-03-23 11:15:54,107 - BenchmarkManager - INFO -   - /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_fix20_10-100/uf20-0100.cnf
+2026-03-23 11:15:54,108 - BenchmarkManager - INFO -   - /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_fix20_10-100/uf20-020.cnf
+2026-03-23 11:15:54,109 - BenchmarkManager - INFO -   - /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_fix20_10-100/uf20-040.cnf
+2026-03-23 11:15:54,110 - BenchmarkManager - INFO -   - /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_fix20_10-100/uf20-060.cnf
+2026-03-23 11:15:54,111 - BenchmarkManager - INFO -   - /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_fix20_10-100/uf20-080.cnf
+2026-03-23 11:15:54,112 - BenchmarkManager - INFO - weaver (run 1/1) - Running /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_fix20_10-100/uf20-0100.cnf
+2026-03-23 11:15:55,100 - Compiler.weaver - INFO - STDOUT:
+num_colors: 22, num_slm_rows: 46, num_slm_cols: 313, num_aod_rows: 1, num_aod_cols: 20
+Compilation successful.
+
+2026-03-23 11:15:55,125 - BenchmarkManager - INFO - weaver (run 1/1) - Running /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_fix20_10-100/uf20-020.cnf
+2026-03-23 11:15:55,948 - Compiler.weaver - INFO - STDOUT:
+num_colors: 21, num_slm_rows: 44, num_slm_cols: 313, num_aod_rows: 1, num_aod_cols: 20
+Compilation successful.
+
+2026-03-23 11:15:55,976 - BenchmarkManager - INFO - weaver (run 1/1) - Running /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_fix20_10-100/uf20-040.cnf
+2026-03-23 11:15:56,831 - Compiler.weaver - INFO - STDOUT:
+num_colors: 21, num_slm_rows: 44, num_slm_cols: 313, num_aod_rows: 1, num_aod_cols: 20
+Compilation successful.
+
+2026-03-23 11:15:56,858 - BenchmarkManager - INFO - weaver (run 1/1) - Running /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_fix20_10-100/uf20-060.cnf
+2026-03-23 11:15:57,658 - Compiler.weaver - INFO - STDOUT:
+num_colors: 25, num_slm_rows: 52, num_slm_cols: 313, num_aod_rows: 1, num_aod_cols: 20
+Compilation successful.
+
+2026-03-23 11:15:57,688 - BenchmarkManager - INFO - weaver (run 1/1) - Running /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_fix20_10-100/uf20-080.cnf
+2026-03-23 11:15:58,505 - Compiler.weaver - INFO - STDOUT:
+num_colors: 23, num_slm_rows: 48, num_slm_cols: 313, num_aod_rows: 1, num_aod_cols: 20
+Compilation successful.
+
+2026-03-23 11:15:58,539 - BenchmarkManager - INFO - Wrote metrics summary for weaver: results/metrics/20260323_111554_arch/weaver.json

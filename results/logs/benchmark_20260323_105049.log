@@ -1,0 +1,44 @@
+2026-03-23 10:50:49,063 - BenchmarkManager - INFO - Initializing 4 compilers...
+2026-03-23 10:50:49,064 - BenchmarkManager - INFO - Output directory for weaver: results/circuits/weaver
+2026-03-23 10:50:49,064 - BenchmarkManager - INFO - Output directory for enola: results/circuits/enola
+2026-03-23 10:50:49,064 - BenchmarkManager - INFO - Output directory for zac: results/circuits/zac
+2026-03-23 10:50:49,064 - BenchmarkManager - INFO - Output directory for nalac: results/circuits/nalac
+2026-03-23 10:50:49,064 - BenchmarkManager - INFO - Starting benchmark execution ...
+2026-03-23 10:50:49,065 - BenchmarkManager - INFO - Found 5 CNF benchmark circuits in '/u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10'
+2026-03-23 10:50:49,065 - BenchmarkManager - INFO -   - /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf100-010.cnf
+2026-03-23 10:50:49,065 - BenchmarkManager - INFO -   - /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf150-010.cnf
+2026-03-23 10:50:49,065 - BenchmarkManager - INFO -   - /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf200-010.cnf
+2026-03-23 10:50:49,065 - BenchmarkManager - INFO -   - /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf250-010.cnf
+2026-03-23 10:50:49,065 - BenchmarkManager - INFO -   - /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf50-010.cnf
+2026-03-23 10:50:49,065 - BenchmarkManager - INFO - weaver (run 1/1) - Running /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf100-010.cnf
+2026-03-23 10:50:50,909 - Compiler.weaver - INFO - STDOUT:
+num_colors: 23, num_slm_rows: 48, num_slm_cols: 1490, num_aod_rows: 1, num_aod_cols: 100
+Compilation successful.
+
+2026-03-23 10:50:51,083 - BenchmarkManager - INFO - weaver (run 1/1) - Running /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf150-010.cnf
+2026-03-23 10:50:54,592 - Compiler.weaver - INFO - STDOUT:
+num_colors: 24, num_slm_rows: 50, num_slm_cols: 2235, num_aod_rows: 1, num_aod_cols: 150
+Compilation successful.
+
+2026-03-23 10:50:54,978 - BenchmarkManager - INFO - weaver (run 1/1) - Running /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf200-010.cnf
+2026-03-23 10:50:59,499 - Compiler.weaver - INFO - STDOUT:
+num_colors: 24, num_slm_rows: 50, num_slm_cols: 2980, num_aod_rows: 1, num_aod_cols: 200
+Compilation successful.
+
+2026-03-23 10:50:59,984 - BenchmarkManager - INFO - weaver (run 1/1) - Running /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf250-010.cnf
+2026-03-23 10:51:06,271 - Compiler.weaver - INFO - STDOUT:
+num_colors: 23, num_slm_rows: 48, num_slm_cols: 3695, num_aod_rows: 1, num_aod_cols: 250
+Compilation successful.
+
+2026-03-23 10:51:07,091 - BenchmarkManager - INFO - weaver (run 1/1) - Running /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf50-010.cnf
+2026-03-23 10:51:08,142 - Compiler.weaver - INFO - STDOUT:
+num_colors: 22, num_slm_rows: 46, num_slm_cols: 754, num_aod_rows: 1, num_aod_cols: 50
+Compilation successful.
+
+2026-03-23 10:51:08,228 - BenchmarkManager - INFO - Wrote metrics summary for weaver: results/metrics/20260323_105049_arch/weaver.json
+2026-03-23 10:51:08,229 - BenchmarkManager - INFO - Found 0 QASM benchmark circuits in '/u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10'
+2026-03-23 10:51:08,232 - BenchmarkManager - INFO - Wrote metrics summary for enola: results/metrics/20260323_105049_arch/enola.json
+2026-03-23 10:51:08,232 - BenchmarkManager - INFO - Found 0 QASM benchmark circuits in '/u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10'
+2026-03-23 10:51:08,235 - BenchmarkManager - INFO - Wrote metrics summary for zac: results/metrics/20260323_105049_arch/zac.json
+2026-03-23 10:51:08,236 - BenchmarkManager - INFO - Found 0 QASM benchmark circuits in '/u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10'
+2026-03-23 10:51:08,238 - BenchmarkManager - INFO - Wrote metrics summary for nalac: results/metrics/20260323_105049_arch/nalac.json

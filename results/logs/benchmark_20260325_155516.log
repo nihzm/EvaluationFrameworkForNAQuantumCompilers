@@ -1,0 +1,11 @@
+2026-03-25 15:55:16,411 - BenchmarkManager - INFO - Initializing 1 compilers...
+2026-03-25 15:55:16,412 - BenchmarkManager - INFO - Output directory for weaver: results/circuits/weaver
+2026-03-25 15:55:16,413 - BenchmarkManager - INFO - Starting benchmark execution ...
+2026-03-25 15:55:16,415 - BenchmarkManager - INFO - Found 1 CNF benchmark circuits in '/u/halle/heiz/home_at/BachelorProject/benchmarks/test'
+2026-03-25 15:55:16,415 - BenchmarkManager - INFO -   - /u/halle/heiz/home_at/BachelorProject/benchmarks/test/uf50-020.cnf
+2026-03-25 15:55:16,416 - BenchmarkManager - INFO - weaver (run 1/1) - Running /u/halle/heiz/home_at/BachelorProject/benchmarks/test/uf50-020.cnf
+2026-03-25 15:55:17,408 - Compiler.weaver - INFO - STDOUT:
+num_colors: 21, num_slm_rows: 44, num_slm_cols: 754, num_aod_rows: 1, num_aod_cols: 50
+Compilation successful.
+
+2026-03-25 15:55:17,464 - BenchmarkManager - INFO - Wrote metrics summary for weaver: results/metrics/20260325_155516_arch/weaver.json

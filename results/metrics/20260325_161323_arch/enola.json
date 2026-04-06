@@ -1,0 +1,25 @@
+{
+  "compiler": "enola",
+  "benchmarks": [
+    "/u/halle/heiz/home_at/BachelorProject/benchmarks/uf2/uf200-020.qasm"
+  ],
+  "runs": {
+    "0": {
+      "move_count": [
+        67326
+      ],
+      "total_move_dist": [
+        15531112.0
+      ],
+      "trap_swap_count": [
+        25808
+      ],
+      "num_rydberg_activations": [
+        2225
+      ],
+      "fidelity": [
+        1.9660671794517285e-56
+      ]
+    }
+  }
+}

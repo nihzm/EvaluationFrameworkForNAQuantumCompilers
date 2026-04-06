@@ -1,0 +1,25 @@
+{
+  "compiler": "zac",
+  "benchmarks": [
+    "/u/halle/heiz/home_at/BachelorProject/benchmarks/test/uf50-020.qasm"
+  ],
+  "runs": {
+    "0": {
+      "move_count": [
+        11037
+      ],
+      "total_move_dist": [
+        411292.858248473
+      ],
+      "trap_swap_count": [
+        7320
+      ],
+      "num_rydberg_activations": [
+        756
+      ],
+      "fidelity": [
+        9.82572444612461e-06
+      ]
+    }
+  }
+}

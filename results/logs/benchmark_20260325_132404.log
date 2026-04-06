@@ -1,0 +1,30 @@
+2026-03-25 13:24:04,970 - BenchmarkManager - INFO - Initializing 1 compilers...
+2026-03-25 13:24:04,971 - BenchmarkManager - INFO - Output directory for zac: results/circuits/zac
+2026-03-25 13:24:04,972 - BenchmarkManager - INFO - Starting benchmark execution ...
+2026-03-25 13:24:04,974 - BenchmarkManager - INFO - Found 5 QASM benchmark circuits in '/u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10'
+2026-03-25 13:24:04,974 - BenchmarkManager - INFO -   - /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf100-010.qasm
+2026-03-25 13:24:04,975 - BenchmarkManager - INFO -   - /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf150-010.qasm
+2026-03-25 13:24:04,975 - BenchmarkManager - INFO -   - /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf200-010.qasm
+2026-03-25 13:24:04,976 - BenchmarkManager - INFO -   - /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf250-010.qasm
+2026-03-25 13:24:04,977 - BenchmarkManager - INFO -   - /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf50-010.qasm
+2026-03-25 13:24:04,979 - BenchmarkManager - INFO - zac (run 1/1) - Running /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf100-010.qasm
+2026-03-25 13:24:07,577 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-03-25 13:24:07,660 - BenchmarkManager - INFO - zac (run 1/1) - Running /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf150-010.qasm
+2026-03-25 13:24:16,219 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-03-25 13:24:16,420 - BenchmarkManager - INFO - zac (run 1/1) - Running /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf200-010.qasm
+2026-03-25 13:24:24,381 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-03-25 13:24:24,560 - BenchmarkManager - INFO - zac (run 1/1) - Running /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf250-010.qasm
+2026-03-25 13:24:43,407 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-03-25 13:24:43,807 - BenchmarkManager - INFO - zac (run 1/1) - Running /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf50-010.qasm
+2026-03-25 13:24:45,032 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-03-25 13:24:45,072 - BenchmarkManager - INFO - Wrote metrics summary for zac: results/metrics/20260325_132404_arch/zac.json

@@ -1,0 +1,46 @@
+2026-03-23 11:07:43,790 - BenchmarkManager - INFO - Initializing 4 compilers...
+2026-03-23 11:07:43,791 - BenchmarkManager - INFO - Output directory for weaver: results/circuits/weaver
+2026-03-23 11:07:43,791 - BenchmarkManager - INFO - Output directory for enola: results/circuits/enola
+2026-03-23 11:07:43,792 - BenchmarkManager - INFO - Output directory for zac: results/circuits/zac
+2026-03-23 11:07:43,793 - BenchmarkManager - INFO - Output directory for nalac: results/circuits/nalac
+2026-03-23 11:07:43,794 - BenchmarkManager - INFO - Starting benchmark execution ...
+2026-03-23 11:07:43,797 - BenchmarkManager - INFO - Found 5 CNF benchmark circuits in '/u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10'
+2026-03-23 11:07:43,797 - BenchmarkManager - INFO -   - /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf100-010.cnf
+2026-03-23 11:07:43,798 - BenchmarkManager - INFO -   - /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf150-010.cnf
+2026-03-23 11:07:43,799 - BenchmarkManager - INFO -   - /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf200-010.cnf
+2026-03-23 11:07:43,800 - BenchmarkManager - INFO -   - /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf250-010.cnf
+2026-03-23 11:07:43,800 - BenchmarkManager - INFO -   - /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf50-010.cnf
+2026-03-23 11:07:43,801 - BenchmarkManager - INFO - weaver (run 1/1) - Running /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf100-010.cnf
+2026-03-23 11:07:45,511 - Compiler.weaver - INFO - STDOUT:
+num_colors: 23, num_slm_rows: 48, num_slm_cols: 1490, num_aod_rows: 1, num_aod_cols: 100
+Compilation successful.
+
+2026-03-23 11:07:45,634 - BenchmarkManager - INFO - weaver (run 1/1) - Running /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf150-010.cnf
+2026-03-23 11:07:48,203 - Compiler.weaver - INFO - STDOUT:
+num_colors: 24, num_slm_rows: 50, num_slm_cols: 2235, num_aod_rows: 1, num_aod_cols: 150
+Compilation successful.
+
+2026-03-23 11:07:48,586 - BenchmarkManager - INFO - weaver (run 1/1) - Running /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf200-010.cnf
+2026-03-23 11:07:52,598 - Compiler.weaver - INFO - STDOUT:
+num_colors: 24, num_slm_rows: 50, num_slm_cols: 2980, num_aod_rows: 1, num_aod_cols: 200
+Compilation successful.
+
+2026-03-23 11:07:53,188 - BenchmarkManager - INFO - weaver (run 1/1) - Running /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf250-010.cnf
+2026-03-23 11:07:58,768 - Compiler.weaver - INFO - STDOUT:
+num_colors: 23, num_slm_rows: 48, num_slm_cols: 3695, num_aod_rows: 1, num_aod_cols: 250
+Compilation successful.
+
+2026-03-23 11:07:59,239 - BenchmarkManager - INFO - weaver (run 1/1) - Running /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf50-010.cnf
+2026-03-23 11:08:00,228 - Compiler.weaver - INFO - STDOUT:
+num_colors: 22, num_slm_rows: 46, num_slm_cols: 754, num_aod_rows: 1, num_aod_cols: 50
+Compilation successful.
+
+2026-03-23 11:08:00,312 - BenchmarkManager - INFO - Wrote metrics summary for weaver: results/metrics/20260323_110743_arch/weaver.json
+2026-03-23 11:08:00,313 - BenchmarkManager - INFO - Found 5 QASM benchmark circuits in '/u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10'
+2026-03-23 11:08:00,314 - BenchmarkManager - INFO -   - /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf100-010.qasm
+2026-03-23 11:08:00,315 - BenchmarkManager - INFO -   - /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf150-010.qasm
+2026-03-23 11:08:00,316 - BenchmarkManager - INFO -   - /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf200-010.qasm
+2026-03-23 11:08:00,317 - BenchmarkManager - INFO -   - /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf250-010.qasm
+2026-03-23 11:08:00,319 - BenchmarkManager - INFO -   - /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf50-010.qasm
+2026-03-23 11:08:00,320 - BenchmarkManager - INFO - enola (run 1/1) - Running /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf100-010.qasm
+2026-03-23 11:08:00,321 - Compiler.enola - INFO - Array width: 1490, Array height: 48, AOD columns: 100, AOD rows: 1

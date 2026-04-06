@@ -1,0 +1,49 @@
+{
+  "compiler": "nalac",
+  "benchmarks": [
+    "/u/halle/heiz/home_at/BachelorProject/benchmarks/uuf_50-250_fix10/uuf100-010.qasm",
+    "/u/halle/heiz/home_at/BachelorProject/benchmarks/uuf_50-250_fix10/uuf150-010.qasm",
+    "/u/halle/heiz/home_at/BachelorProject/benchmarks/uuf_50-250_fix10/uuf200-010.qasm",
+    "/u/halle/heiz/home_at/BachelorProject/benchmarks/uuf_50-250_fix10/uuf250-010.qasm",
+    "/u/halle/heiz/home_at/BachelorProject/benchmarks/uuf_50-250_fix10/uuf50-010.qasm"
+  ],
+  "runs": {
+    "0": {
+      "move_count": [
+        14036,
+        22956,
+        30706,
+        41303,
+        5856
+      ],
+      "total_move_dist": [
+        201137.25366640303,
+        419405.33659029513,
+        713587.8172598729,
+        1081915.5635467053,
+        47154.588458682585
+      ],
+      "trap_swap_count": [
+        9212,
+        14956,
+        20116,
+        27032,
+        3868
+      ],
+      "num_rydberg_activations": [
+        1565,
+        1899,
+        2372,
+        2503,
+        745
+      ],
+      "fidelity": [
+        1.5834543137395602e-08,
+        5.792201026953487e-12,
+        1.8507229691247656e-15,
+        5.895811028826311e-19,
+        0.0003346455400254748
+      ]
+    }
+  }
+}

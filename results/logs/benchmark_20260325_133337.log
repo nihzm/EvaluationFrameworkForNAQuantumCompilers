@@ -1,0 +1,30 @@
+2026-03-25 13:33:37,053 - BenchmarkManager - INFO - Initializing 1 compilers...
+2026-03-25 13:33:37,054 - BenchmarkManager - INFO - Output directory for nalac: results/circuits/nalac
+2026-03-25 13:33:37,054 - BenchmarkManager - INFO - Starting benchmark execution ...
+2026-03-25 13:33:37,056 - BenchmarkManager - INFO - Found 5 QASM benchmark circuits in '/u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10'
+2026-03-25 13:33:37,056 - BenchmarkManager - INFO -   - /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf100-010.qasm
+2026-03-25 13:33:37,057 - BenchmarkManager - INFO -   - /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf150-010.qasm
+2026-03-25 13:33:37,057 - BenchmarkManager - INFO -   - /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf200-010.qasm
+2026-03-25 13:33:37,058 - BenchmarkManager - INFO -   - /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf250-010.qasm
+2026-03-25 13:33:37,059 - BenchmarkManager - INFO -   - /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf50-010.qasm
+2026-03-25 13:33:37,060 - BenchmarkManager - INFO - nalac (run 1/1) - Running /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf100-010.qasm
+2026-03-25 13:33:37,868 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-03-25 13:33:37,932 - BenchmarkManager - INFO - nalac (run 1/1) - Running /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf150-010.qasm
+2026-03-25 13:33:38,977 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-03-25 13:33:39,079 - BenchmarkManager - INFO - nalac (run 1/1) - Running /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf200-010.qasm
+2026-03-25 13:33:40,380 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-03-25 13:33:40,521 - BenchmarkManager - INFO - nalac (run 1/1) - Running /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf250-010.qasm
+2026-03-25 13:33:42,063 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-03-25 13:33:42,250 - BenchmarkManager - INFO - nalac (run 1/1) - Running /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf50-010.qasm
+2026-03-25 13:33:42,908 - Compiler.nalac - INFO - STDOUT:
+Compilation successful.
+
+2026-03-25 13:33:42,942 - BenchmarkManager - INFO - Wrote metrics summary for nalac: results/metrics/20260325_133337_arch/nalac.json

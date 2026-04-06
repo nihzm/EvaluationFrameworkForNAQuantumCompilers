@@ -1,0 +1,35 @@
+2026-03-25 13:17:04,872 - BenchmarkManager - INFO - Initializing 1 compilers...
+2026-03-25 13:17:04,873 - BenchmarkManager - INFO - Output directory for zac: results/circuits/zac
+2026-03-25 13:17:04,873 - BenchmarkManager - INFO - Starting benchmark execution ...
+2026-03-25 13:17:04,877 - BenchmarkManager - INFO - Found 5 QASM benchmark circuits in '/u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10'
+2026-03-25 13:17:04,877 - BenchmarkManager - INFO -   - /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf100-010.qasm
+2026-03-25 13:17:04,878 - BenchmarkManager - INFO -   - /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf150-010.qasm
+2026-03-25 13:17:04,878 - BenchmarkManager - INFO -   - /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf200-010.qasm
+2026-03-25 13:17:04,879 - BenchmarkManager - INFO -   - /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf250-010.qasm
+2026-03-25 13:17:04,879 - BenchmarkManager - INFO -   - /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf50-010.qasm
+2026-03-25 13:17:04,880 - BenchmarkManager - INFO - zac (run 1/1) - Running /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf100-010.qasm
+2026-03-25 13:17:04,880 - Compiler.zac - INFO - Array width: 1490, Array height: 48, AOD columns: 100, AOD rows: 1
+2026-03-25 13:17:09,503 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-03-25 13:17:09,637 - BenchmarkManager - INFO - zac (run 1/1) - Running /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf150-010.qasm
+2026-03-25 13:17:09,637 - Compiler.zac - INFO - Array width: 2235, Array height: 50, AOD columns: 150, AOD rows: 1
+2026-03-25 13:17:18,412 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-03-25 13:17:18,617 - BenchmarkManager - INFO - zac (run 1/1) - Running /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf200-010.qasm
+2026-03-25 13:17:18,617 - Compiler.zac - INFO - Array width: 2980, Array height: 50, AOD columns: 200, AOD rows: 1
+2026-03-25 13:17:26,477 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-03-25 13:17:26,621 - BenchmarkManager - INFO - zac (run 1/1) - Running /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf250-010.qasm
+2026-03-25 13:17:26,621 - Compiler.zac - INFO - Array width: 3695, Array height: 48, AOD columns: 250, AOD rows: 1
+2026-03-25 13:17:37,939 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-03-25 13:17:38,122 - BenchmarkManager - INFO - zac (run 1/1) - Running /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf50-010.qasm
+2026-03-25 13:17:38,122 - Compiler.zac - INFO - Array width: 754, Array height: 46, AOD columns: 50, AOD rows: 1
+2026-03-25 13:17:39,093 - Compiler.zac - INFO - STDOUT:
+Compilation successful.
+
+2026-03-25 13:17:39,127 - BenchmarkManager - INFO - Wrote metrics summary for zac: results/metrics/20260325_131704_arch/zac.json

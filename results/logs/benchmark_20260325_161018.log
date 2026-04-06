@@ -1,0 +1,17 @@
+2026-03-25 16:10:18,116 - BenchmarkManager - INFO - Initializing 4 compilers...
+2026-03-25 16:10:18,117 - BenchmarkManager - INFO - Output directory for weaver: results/circuits/weaver
+2026-03-25 16:10:18,117 - BenchmarkManager - INFO - Output directory for zac: results/circuits/zac
+2026-03-25 16:10:18,118 - BenchmarkManager - INFO - Output directory for nalac: results/circuits/nalac
+2026-03-25 16:10:18,119 - BenchmarkManager - INFO - Output directory for enola: results/circuits/enola
+2026-03-25 16:10:18,120 - BenchmarkManager - INFO - Starting benchmark execution ...
+2026-03-25 16:10:18,122 - BenchmarkManager - INFO - Found 1 CNF benchmark circuits in '/u/halle/heiz/home_at/BachelorProject/benchmarks/uf2'
+2026-03-25 16:10:18,122 - BenchmarkManager - INFO -   - /u/halle/heiz/home_at/BachelorProject/benchmarks/uf2/uf200-020.cnf
+2026-03-25 16:10:18,123 - BenchmarkManager - INFO - weaver (run 1/1) - Running /u/halle/heiz/home_at/BachelorProject/benchmarks/uf2/uf200-020.cnf
+2026-03-25 16:10:22,129 - Compiler.weaver - INFO - STDOUT:
+num_colors: 22, num_slm_rows: 46, num_slm_cols: 2980, num_aod_rows: 1, num_aod_cols: 200
+Compilation successful.
+
+2026-03-25 16:10:22,473 - BenchmarkManager - INFO - Wrote metrics summary for weaver: results/metrics/20260325_161018_arch/weaver.json
+2026-03-25 16:10:22,474 - BenchmarkManager - INFO - Found 1 QASM benchmark circuits in '/u/halle/heiz/home_at/BachelorProject/benchmarks/uf2'
+2026-03-25 16:10:22,474 - BenchmarkManager - INFO -   - /u/halle/heiz/home_at/BachelorProject/benchmarks/uf2/uf200-020.qasm
+2026-03-25 16:10:22,475 - BenchmarkManager - INFO - zac (run 1/1) - Running /u/halle/heiz/home_at/BachelorProject/benchmarks/uf2/uf200-020.qasm

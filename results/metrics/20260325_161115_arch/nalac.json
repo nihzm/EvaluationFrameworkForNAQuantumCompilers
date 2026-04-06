@@ -1,0 +1,25 @@
+{
+  "compiler": "nalac",
+  "benchmarks": [
+    "/u/halle/heiz/home_at/BachelorProject/benchmarks/uf2/uf200-020.qasm"
+  ],
+  "runs": {
+    "0": {
+      "move_count": [
+        33455
+      ],
+      "total_move_dist": [
+        820184.762553615
+      ],
+      "trap_swap_count": [
+        21940
+      ],
+      "num_rydberg_activations": [
+        2224
+      ],
+      "fidelity": [
+        6.3167589138971495e-16
+      ]
+    }
+  }
+}

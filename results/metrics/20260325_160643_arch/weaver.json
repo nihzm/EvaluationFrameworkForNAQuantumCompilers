@@ -1,0 +1,25 @@
+{
+  "compiler": "weaver",
+  "benchmarks": [
+    "/u/halle/heiz/home_at/BachelorProject/benchmarks/uf/uf250-030.cnf"
+  ],
+  "runs": {
+    "0": {
+      "move_count": [
+        150476
+      ],
+      "total_move_dist": [
+        6799042.195485747
+      ],
+      "trap_swap_count": [
+        22000
+      ],
+      "num_rydberg_activations": [
+        88
+      ],
+      "fidelity": [
+        9.29669916628536e-22
+      ]
+    }
+  }
+}

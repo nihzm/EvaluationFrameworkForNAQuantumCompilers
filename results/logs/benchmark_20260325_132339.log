@@ -1,0 +1,20 @@
+2026-03-25 13:23:39,068 - BenchmarkManager - INFO - Initializing 1 compilers...
+2026-03-25 13:23:39,069 - BenchmarkManager - INFO - Output directory for zac: results/circuits/zac
+2026-03-25 13:23:39,070 - BenchmarkManager - INFO - Starting benchmark execution ...
+2026-03-25 13:23:39,073 - BenchmarkManager - INFO - Found 5 QASM benchmark circuits in '/u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10'
+2026-03-25 13:23:39,073 - BenchmarkManager - INFO -   - /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf100-010.qasm
+2026-03-25 13:23:39,075 - BenchmarkManager - INFO -   - /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf150-010.qasm
+2026-03-25 13:23:39,076 - BenchmarkManager - INFO -   - /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf200-010.qasm
+2026-03-25 13:23:39,077 - BenchmarkManager - INFO -   - /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf250-010.qasm
+2026-03-25 13:23:39,078 - BenchmarkManager - INFO -   - /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf50-010.qasm
+2026-03-25 13:23:39,080 - BenchmarkManager - INFO - zac (run 1/1) - Running /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf100-010.qasm
+2026-03-25 13:23:39,081 - BenchmarkManager - ERROR - Benchmark failed: name 'aod_columns' is not defined
+2026-03-25 13:23:39,083 - BenchmarkManager - INFO - zac (run 1/1) - Running /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf150-010.qasm
+2026-03-25 13:23:39,084 - BenchmarkManager - ERROR - Benchmark failed: name 'aod_columns' is not defined
+2026-03-25 13:23:39,085 - BenchmarkManager - INFO - zac (run 1/1) - Running /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf200-010.qasm
+2026-03-25 13:23:39,087 - BenchmarkManager - ERROR - Benchmark failed: name 'aod_columns' is not defined
+2026-03-25 13:23:39,088 - BenchmarkManager - INFO - zac (run 1/1) - Running /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf250-010.qasm
+2026-03-25 13:23:39,088 - BenchmarkManager - ERROR - Benchmark failed: name 'aod_columns' is not defined
+2026-03-25 13:23:39,090 - BenchmarkManager - INFO - zac (run 1/1) - Running /u/halle/heiz/home_at/BachelorProject/benchmarks/uf_50-250_fix10/uf50-010.qasm
+2026-03-25 13:23:39,090 - BenchmarkManager - ERROR - Benchmark failed: name 'aod_columns' is not defined
+2026-03-25 13:23:39,095 - BenchmarkManager - INFO - Wrote metrics summary for zac: results/metrics/20260325_132339_arch/zac.json
